@@ -1,0 +1,4335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# FENG GAO <gaofeng860918@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: froide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-22 19:53+0800\n"
+"PO-Revision-Date: 2013-10-28 03:13+0000\n"
+"Last-Translator: FENG GAO <gaofeng860918@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/froide-1/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Translators: URL part of /help/
+#: froide/help_urls.py:15
+msgid "about"
+msgstr "关于"
+
+#. Translators: URL part of /help/
+#: froide/help_urls.py:17
+msgid "terms"
+msgstr "条款"
+
+#. Translators: URL part of /help/
+#: froide/help_urls.py:19
+msgid "privacy"
+msgstr "隐私"
+
+#. Translators: URL part of /help/
+#: froide/help_urls.py:21
+msgid "making-requests"
+msgstr "提出申请"
+
+#. Translators: URL part of /help/
+#: froide/help_urls.py:23
+msgid "your-privacy"
+msgstr "你的隐私"
+
+#. Translators: URL part of /help/
+#: froide/help_urls.py:25
+msgid "for-foi-officers"
+msgstr "供信息公开被申请人使用"
+
+#: froide/help_urls.py:27
+msgid "donate"
+msgstr "捐赠"
+
+#. Translators: request URL
+#: froide/urls.py:53
+msgid "make-request"
+msgstr "提出申请"
+
+#. Translators: URL part
+#: froide/urls.py:55
+msgid "requests"
+msgstr "信息公开申请"
+
+#. Translators: request URL
+#: froide/urls.py:57
+msgid "request"
+msgstr "信息公开申请"
+
+#. Translators: Short-request URL
+#. Translators: Short-request auth URL
+#: froide/urls.py:59 froide/urls.py:61
+msgid "r"
+msgstr "r"
+
+#. Translators: follow request URL
+#: froide/urls.py:63
+msgid "follow"
+msgstr "关注"
+
+#. Translators: URL part
+#: froide/urls.py:67 froide/publicbody/jurisdiction_urls.py:10
+msgid "entity"
+msgstr "实体"
+
+#. Translators: URL part
+#: froide/urls.py:69
+msgid "law"
+msgstr "法律"
+
+#. Translators: URL part
+#: froide/urls.py:75
+msgid "account"
+msgstr "账户"
+
+#. Translators: URL part
+#: froide/urls.py:77
+msgid "profile"
+msgstr "个人档案"
+
+#. Translators: URL part
+#: froide/urls.py:79
+msgid "news"
+msgstr "新闻"
+
+#. Translators: URL part
+#. Translators: part in Public Body URL
+#: froide/urls.py:81 froide/publicbody/urls.py:15 froide/publicbody/urls.py:27
+msgid "search"
+msgstr "搜索"
+
+#. Translators: URL part
+#: froide/urls.py:83
+msgid "help"
+msgstr "帮助"
+
+#: froide/account/forms.py:22
+msgid "First name"
+msgstr "名"
+
+#: froide/account/forms.py:23
+msgid "First Name"
+msgstr "名"
+
+#: froide/account/forms.py:26
+msgid "Last name"
+msgstr "姓"
+
+#: froide/account/forms.py:27
+msgid "Last Name"
+msgstr "姓"
+
+#: froide/account/forms.py:31 froide/account/forms.py:113
+msgid "Mailing Address"
+msgstr "联系地址"
+
+#: froide/account/forms.py:32
+msgid ""
+"Optional. Your address will not be displayed publicly and is only needed in "
+"case a public body needs to send you paper."
+msgstr "可选。你的个人地址并不会公开可见，这里需要你的地址是因为有关部门可能需要它从而向你寄送文件"
+
+#: froide/account/forms.py:36 froide/account/forms.py:115
+msgid "Street, Post Code, City"
+msgstr "街道，邮编，城市"
+
+#: froide/account/forms.py:38 froide/account/forms.py:106
+msgid "Email address"
+msgstr "电子邮件"
+
+#: froide/account/forms.py:40
+msgid "Not public. The given address will need to be confirmed."
+msgstr "非公开。该地址需要进一步确认。"
+
+#: froide/account/forms.py:42 froide/account/forms.py:105
+#: froide/account/forms.py:130
+msgid "mail@ddress.net"
+msgstr "mail@ddress.net"
+
+#: froide/account/forms.py:46
+msgid "Organization"
+msgstr "组织"
+
+#: froide/account/forms.py:47
+msgid "Optional. Affiliation will be shown next to your name"
+msgstr "可选。附属机构名称将会显示在你的姓名旁边。"
+
+#: froide/account/forms.py:51
+msgid "Hide my name on the web"
+msgstr "不公开显示你的姓名"
+
+#: froide/account/forms.py:52
+msgid ""
+"If you check this, your name will still appear in requests to public bodies,"
+" but we will do our best to not display it publicly. However, we cannot "
+"guarantee your anonymity"
+msgstr "如果你勾选此项，那么你的姓名仍会显示在信息公开申请材料中而提交到相关部门，但我们会尽量不在我们网站上公开显示你的姓名。然而，请注意我们并不保证你的匿名。"
+
+#: froide/account/forms.py:54
+msgid "Terms and Conditions and Privacy Statement"
+msgstr "使用条例和隐私申明"
+
+#: froide/account/forms.py:56
+msgid "You need to accept our Terms and Conditions and Priavcy Statement."
+msgstr "你需要接受我们的使用条例及隐私申明。"
+
+#: froide/account/forms.py:58
+#, python-format
+msgid ""
+"You agree to our <a href=\"%(url_terms)s\" class=\"target-new\">Terms and "
+"Conditions</a> and <a href=\"%(url_privacy)s\" class=\"target-new\">Privacy "
+"Statement</a>"
+msgstr "你同意了我们的<a href=\"%(url_terms)s\" class=\"target-new\">使用条例</a> 和 <a href=\"%(url_privacy)s\" class=\"target-new\">隐私申明</a>"
+
+#: froide/account/forms.py:65
+#, python-brace-format
+msgid ""
+"<a target=\"_blank\" href=\"{url}\">You may use a pseudonym if you don't "
+"need to receive postal messages</a>."
+msgstr "<a target=\"_blank\" href=\"{url}\">如果你不希望收到邮寄回复，那么你可以使用一个伪地址</a>."
+
+#: froide/account/forms.py:83
+#, python-format
+msgid ""
+"This email address already has an account. <a href=\"%s?simple\" class"
+"=\"target-small\">Please login using that email address.</a>"
+msgstr "这个邮件地址已经注册过账号了。<a href=\"%s?simple\" class=\"target-small\">请使用它登录现有正好。</a>"
+
+#: froide/account/forms.py:86
+msgid ""
+"This email address is already registered, but not yet confirmed! Please "
+"click on the confirmation link in the mail we send you."
+msgstr "这个邮件地址已经注册过帐号了，但您还未点击确认链接。"
+
+#: froide/account/forms.py:92 froide/account/forms.py:108
+#: froide/account/forms.py:181
+msgid "Password"
+msgstr "密码"
+
+#: froide/account/forms.py:94
+msgid "Password (repeat)"
+msgstr "密码（再次确认）"
+
+#: froide/account/forms.py:99
+msgid "Passwords do not match!"
+msgstr "两次密码不匹配"
+
+#: froide/account/forms.py:114
+msgid "Your address will never be displayed publicly."
+msgstr "你的地址不会被公开显示。"
+
+#: froide/account/forms.py:131
+msgid "New email address"
+msgstr "新的邮件地址"
+
+#: froide/account/forms.py:137
+msgid "A user with that email address already exists!"
+msgstr "已有使用该邮件地址的用户！"
+
+#: froide/account/forms.py:156
+msgid "Logged in user does not match this link!"
+msgstr "登入用户不匹配该链接！"
+
+#: froide/account/forms.py:167
+msgid "Link is invalid or has expired!"
+msgstr "链接无效或已过期！"
+
+#: froide/account/forms.py:177
+msgid "Freedom of Information Act"
+msgstr "信息公开条例"
+
+#: froide/account/forms.py:182
+msgid "Please type your password to confirm."
+msgstr "请输入你的密码来确认"
+
+#: froide/account/forms.py:188
+msgid "Confirmation Phrase"
+msgstr "验证码"
+
+#: froide/account/forms.py:189
+msgid "Type the phrase above exactly as displayed."
+msgstr "请输入上方显示的验证码。"
+
+#: froide/account/forms.py:203
+msgid "You provided the wrong password!"
+msgstr "你输入的密码错误！"
+
+#: froide/account/forms.py:211
+msgid "You did not type the confirmation phrase exactly right!"
+msgstr "你输入的验证码错误！"
+
+#: froide/account/models.py:35
+#, python-format
+msgid "Profile of <%(user)s>"
+msgstr "<%(user)s>的档案"
+
+#: froide/account/models.py:44
+msgid "Name Not Public"
+msgstr "姓名非公开"
+
+#: froide/account/models.py:60
+msgid "<< Address removed >>"
+msgstr "<< 地址已移除 >>"
+
+#: froide/account/models.py:66
+msgid "<< Email removed >>"
+msgstr "<< 邮件地址已移除 >>"
+
+#: froide/account/models.py:77
+msgid "<< Name removed >>"
+msgstr "<< 姓名已移除 >>"
+
+#: froide/account/models.py:86
+msgid "<< Greeting >>"
+msgstr "<< 你好 >>"
+
+#. Translators: Mail subject
+#: froide/account/models.py:185
+#, python-format
+msgid "%(site_name)s: please confirm your account"
+msgstr "%(site_name)s: 请确认你的账户。"
+
+#. Translators: Mail subject
+#: froide/account/models.py:208
+#, python-format
+msgid "%(site_name)s: please confirm your new email address"
+msgstr "%(site_name)s: 请确认你的新电邮地址。"
+
+#: froide/account/views.py:26
+msgid "You are logged in and cannot use a confirmation link."
+msgstr "你已经登录而不能使用确认链接。"
+
+#: froide/account/views.py:34
+msgid ""
+"Your email address is now confirmed and you are logged in. You should change"
+" your password now by filling out the form below."
+msgstr "你的电邮地址已经确认并且你已经登入。你现在应当通过下表修改密码。"
+
+#: froide/account/views.py:40
+#, python-format
+msgid "Your request \"%s\" has now been sent"
+msgstr "你的申请“%s”已寄出"
+
+#: froide/account/views.py:49
+msgid ""
+"You can only use the confirmation link once, please login with your "
+"password."
+msgstr "你只能使用确认链接一次，现在请用你的密码登录。"
+
+#: froide/account/views.py:57
+msgid ""
+"You are logged in with a different user account. Please logout first before "
+"using this link."
+msgstr "你正在以另一个用户身份登入。请先登出再使用该确认链接"
+
+#: froide/account/views.py:62
+msgid "Your account is not active."
+msgstr "你的账户未激活。"
+
+#: froide/account/views.py:118
+msgid "You have been logged out."
+msgstr "你已登出。"
+
+#: froide/account/views.py:152
+msgid ""
+"A recent change requires you to set your address! Please enter it below!"
+msgstr "最新的修改需要你设定地址！请在下方输入！"
+
+#: froide/account/views.py:157 froide/account/templates/account/login.html:7
+msgid "You are now logged in."
+msgstr "你已登入。"
+
+#: froide/account/views.py:166
+msgid "Please activate your mail address before logging in."
+msgstr "请先激活你的邮箱再登录。"
+
+#: froide/account/views.py:169
+msgid "E-mail and password do not match."
+msgstr "邮件地址和密码不匹配。"
+
+#: froide/account/views.py:186
+msgid "You are currently logged in, you cannot signup."
+msgstr "你已经登录因此无法注册账户。"
+
+#: froide/account/views.py:195
+msgid "Please check your emails for a mail from us with a confirmation link."
+msgstr "请检查你的邮箱以接收确认链接。"
+
+#: froide/account/views.py:211
+msgid "You are not currently logged in, you cannot change your password."
+msgstr "你还未登录因此无法修改密码。"
+
+#: froide/account/views.py:217
+msgid "Your password has been changed."
+msgstr "你的密码已经修改。"
+
+#: froide/account/views.py:228
+msgid "You are currently logged in, you cannot get a password reset link."
+msgstr "你已登录，因此无法获得重置密码链接。"
+
+#: froide/account/views.py:236
+msgid "Check your mail, we sent you a password reset link."
+msgstr "请查收你的邮箱获取密码重置链接。"
+
+#: froide/account/views.py:253
+msgid "Your password has been set and you are now logged in."
+msgstr "你的密码已经重设并且你已重新登录了。"
+
+#: froide/account/views.py:264
+msgid "You are not currently logged in, you cannot change your address."
+msgstr "你还未登录，因此不能修改地址。"
+
+#: froide/account/views.py:270
+msgid "Your address has been changed."
+msgstr "你的地址已经修改。"
+
+#: froide/account/views.py:276
+#, python-format
+msgid ""
+"You probably do not have cookies enabled, but you need cookies to use this "
+"site! Cookies are only ever sent securely. The technical reason is: "
+"%(reason)s"
+msgstr "你可能并未启用Cookies，但我们却要用到它！请放心，Cookies将会安全的传送。技术上需要它的理由是：%(reason)s"
+
+#: froide/account/views.py:296
+msgid "You are not currently logged in, you cannot change your email address."
+msgstr "你还未登入因此不能修改邮件地址。"
+
+#: froide/account/views.py:302
+msgid "Your email address could not be changed."
+msgstr "你的邮件地址不能被修改。"
+
+#: froide/account/views.py:314
+msgid ""
+"We sent a confirmation email to your new address. Please click the link in "
+"there."
+msgstr "我们向你的新邮件地址发送了确认链接。请在那点击链接确认。"
+
+#: froide/account/views.py:321
+msgid "Your email address has been changed."
+msgstr "你的邮件地址已改变。"
+
+#: froide/account/views.py:324
+msgid "The email confirmation link was invalid or expired."
+msgstr "这个邮件地址确认链接无效或已过期。"
+
+#: froide/account/views.py:332
+msgid "You are not currently logged in, you cannot delete your account."
+msgstr "你已登录因此无法删除账户。"
+
+#: froide/account/views.py:337
+msgid "Password or confirmation phrase were wrong. Account was not deleted."
+msgstr "密码或验证码错误。帐号未能删除。"
+
+#: froide/account/views.py:361
+msgid "Your account has been deleted and you have been logged out."
+msgstr "你的账户已被删除并且你已登出。"
+
+#: froide/account/templates/account/change_email.txt:1
+#, python-format
+msgid ""
+"Hello %(name)s,\n"
+"\n"
+"This is an email from %(site_name)s to confirm your new email address.\n"
+"Please visit the link below:\n"
+"\n"
+"%(url)s\n"
+"\n"
+msgstr "你好 %(name)s,⏎\n⏎\n这封邮件来自于 %(site_name)s 网站。你最近在网站上提出了对绑定的邮箱地址的改变，请点击以下链接确认：.⏎\n⏎\n%(url)s⏎\n⏎\n"
+
+#: froide/account/templates/account/change_email.txt:10
+#: froide/account/templates/account/confirmation_mail.txt:12
+#: froide/account/templates/account/password_reset_email.txt:9
+#: froide/foirequest/templates/foirequest/emails/public_body_suggestion_received.txt:12
+#, python-format
+msgid ""
+"Cheers,\n"
+"%(site_name)s"
+msgstr "谢谢,⏎\n%(site_name)s"
+
+#: froide/account/templates/account/confirmation_mail.txt:1
+#, python-format
+msgid ""
+"Hello %(name)s,\n"
+"\n"
+"This is an email from %(site_name)s to confirm your email address.\n"
+"Please visit the link below:\n"
+"\n"
+"%(url)s\n"
+"\n"
+msgstr "你好， %(name)s：⏎\n⏎\n这封邮件来自 %(site_name)s 网站。 请确认你的电子邮件地址：\n⏎\n%(url)s⏎\n⏎\n"
+
+#: froide/account/templates/account/confirmation_mail.txt:8
+#, python-format
+msgid ""
+"We have also generated a random password for you. You can use it to login, but you can also change it, if you want to.\n"
+"\n"
+"Your password is: %(password)s\n"
+msgstr "我们生成了一个随机密码供你初次登录。你可在登录后，修改该密码。⏎\n⏎\n你的随机密码: %(password)s⏎\n"
+
+#: froide/account/templates/account/login.html:25
+msgid "Please Log In"
+msgstr "请登录"
+
+#: froide/account/templates/account/login.html:31
+msgid "Log In"
+msgstr "登录"
+
+#: froide/account/templates/account/login.html:34
+msgid "In case you forgot your password..."
+msgstr "如果你忘记密码..."
+
+#: froide/account/templates/account/login.html:35
+msgid "... we can send you a reset link to your email address."
+msgstr "... 我们可以向你的邮箱地址发送重置链接。"
+
+#: froide/account/templates/account/login.html:40
+msgid "Send reset link"
+msgstr "发送重置链接"
+
+#: froide/account/templates/account/login.html:45
+msgid "Don't have an account? Sign up!"
+msgstr "还没有账户？赶快注册吧！"
+
+#: froide/account/templates/account/login.html:50
+msgid "Sign Up"
+msgstr "注册"
+
+#: froide/account/templates/account/password_reset_confirm.html:4
+msgid "Password reset"
+msgstr "重置密码"
+
+#: froide/account/templates/account/password_reset_confirm.html:10
+msgid "Enter new password"
+msgstr "输入新密码"
+
+#: froide/account/templates/account/password_reset_confirm.html:12
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr "请输入密码两次以便我们确认你的输入无误"
+
+#: froide/account/templates/account/password_reset_confirm.html:16
+msgid "New password:"
+msgstr "新密码："
+
+#: froide/account/templates/account/password_reset_confirm.html:18
+msgid "Confirm password:"
+msgstr "确认密码："
+
+#: froide/account/templates/account/password_reset_confirm.html:19
+msgid "Change my password"
+msgstr "修改密码"
+
+#: froide/account/templates/account/password_reset_confirm.html:24
+msgid "Password reset unsuccessful"
+msgstr "重置密码失败"
+
+#: froide/account/templates/account/password_reset_confirm.html:26
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr "密码重置链接无效，可能是因为它已被使用过。请重新申请密码重置链接。"
+
+#: froide/account/templates/account/password_reset_email.txt:2
+#, python-format
+msgid ""
+"You're receiving this e-mail because you requested a password reset for your"
+" account at %(site_name)s."
+msgstr "你收到这封邮件是因为你提出了对你的%(site_name)s账户进行密码重置。"
+
+#: froide/account/templates/account/password_reset_email.txt:4
+msgid "Please go to the following page and choose a new password:"
+msgstr "请继续以重设密码："
+
+#: froide/account/templates/account/profile.html:7
+#, python-format
+msgid "Requests and activities of %(name)s"
+msgstr "%(name)s的信息公开申请与其他活动记录"
+
+#: froide/account/templates/account/profile.html:14
+#, python-format
+msgid "Profile of %(name)s"
+msgstr "%(name)s的档案"
+
+#: froide/account/templates/account/profile.html:18
+#, python-format
+msgid "One Request"
+msgid_plural "%(counter)s requests"
+msgstr[0] "有%(counter)s项申请"
+
+#: froide/account/templates/account/profile.html:28
+msgid "Recent events"
+msgstr "最近动态"
+
+#: froide/account/templates/account/profile.html:33
+#: froide/account/templates/account/show.html:52
+#: froide/foirequest/templates/foirequest/_requests_as_table.html:18
+#: froide/foirequest/templates/foirequest/show.html:724
+#: froide/foirequest/templates/foirequest/snippets/request_item.html:26
+#, python-format
+msgid "%(time)s ago"
+msgstr "%(time)s以前"
+
+#: froide/account/templates/account/settings.html:6
+msgid "Account Settings"
+msgstr "账户设置"
+
+#: froide/account/templates/account/settings.html:12
+msgid "Your name:"
+msgstr "你的姓名："
+
+#: froide/account/templates/account/settings.html:17
+msgid "Your Organisation:"
+msgstr "你的组织（单位）："
+
+#: froide/account/templates/account/settings.html:24
+msgid "Your email address:"
+msgstr "你的邮件地址："
+
+#: froide/account/templates/account/settings.html:28
+msgid "Your address:"
+msgstr "你的地址："
+
+#: froide/account/templates/account/settings.html:34
+msgid "Account Privacy:"
+msgstr "账户隐私："
+
+#: froide/account/templates/account/settings.html:39
+msgid "Your name is hidden on the web (this page is only visible to you)."
+msgstr "你的姓名公开不可见（这个页面仅你可见）。"
+
+#: froide/account/templates/account/settings.html:41
+msgid "Your name is visible."
+msgstr "你的姓名公开可见。"
+
+#: froide/account/templates/account/settings.html:48
+msgid "You should change your password now."
+msgstr "你现在应当立刻修改密码。"
+
+#: froide/account/templates/account/settings.html:50
+msgid "Change your password"
+msgstr "修改密码"
+
+#: froide/account/templates/account/settings.html:60
+msgid "Change password"
+msgstr "修改密码"
+
+#: froide/account/templates/account/settings.html:70
+msgid "You need to enter your address."
+msgstr "你必须输入地址。"
+
+#: froide/account/templates/account/settings.html:74
+msgid "Change your address"
+msgstr "修改地址"
+
+#: froide/account/templates/account/settings.html:85
+msgid "Change address"
+msgstr "修改地址"
+
+#: froide/account/templates/account/settings.html:92
+msgid "Change your email address"
+msgstr "修改邮件地址"
+
+#: froide/account/templates/account/settings.html:98
+msgid ""
+"You will get an email to your new address and need to click a link in there."
+msgstr "请在你新设定的邮件地址查收确认链接。"
+
+#: froide/account/templates/account/settings.html:99
+msgid "Change email"
+msgstr "修改邮件地址"
+
+#: froide/account/templates/account/settings.html:106
+msgid "Delete your account"
+msgstr "删除账户"
+
+#: froide/account/templates/account/settings.html:112
+msgid "Danger: deleting your account cannot be undone."
+msgstr "警告：删除账户操作不可逆。"
+
+#: froide/account/templates/account/settings.html:119
+msgid ""
+"Your FOI requests will not be removed. Only your personal information "
+"connected with your account will be removed."
+msgstr "你的信息公开申请将不会被删除。只有你的个人信息将被删除。"
+
+#: froide/account/templates/account/settings.html:123
+msgid "Delete account"
+msgstr "删除帐号"
+
+#: froide/account/templates/account/show.html:8
+msgid "Your Account"
+msgstr "你的账户"
+
+#: froide/account/templates/account/show.html:13
+msgid "Your account settings"
+msgstr "你的账户设置"
+
+#: froide/account/templates/account/show.html:22
+#, python-format
+msgid "One request that needs your attention"
+msgid_plural "%(counter)s requests that need your attention"
+msgstr[0] "需要你关注的%(counter)s 项申请"
+
+#: froide/account/templates/account/show.html:37
+msgid "Your followed requests"
+msgstr "你关注的申请"
+
+#: froide/account/templates/account/show.html:40
+msgid "Recent event on your followed requests:"
+msgstr "你关注的申请的最新动态："
+
+#: froide/account/templates/account/show.html:66
+#, python-format
+msgid "Your are following one request, but there are no recent events."
+msgid_plural ""
+"You are following %(counter)s requests, but there are no recent events."
+msgstr[0] "你目前关注了%(counter)s申请，但它们最近都没有新的进展。"
+
+#: froide/account/templates/account/show.html:68
+msgid "You don't follow any requests."
+msgstr "你没有关注任何申请。"
+
+#: froide/account/templates/account/show.html:72
+msgid "Show all the requests that you are following."
+msgstr "显示你关注的所有申请。"
+
+#: froide/account/templates/account/show.html:82
+msgid ""
+"You don't follow any requests. Click the follow button on a request page to "
+"follow it."
+msgstr "你还未关注任何申请。请在你感兴趣的信息公开申请页面点击关注按钮。"
+
+#: froide/account/templates/account/show.html:92
+#, python-format
+msgid ""
+"Your account is not active. You need to click on the link we send to your "
+"address %(email)s."
+msgstr "你的账户未激活。你需要点击发送到你的邮箱：%(email)s 中的确认链接。"
+
+#: froide/account/templates/account/show.html:96
+msgid "Your Freedom of Information Requests"
+msgstr "你提出的信息公开申请"
+
+#: froide/account/templates/account/show.html:99
+#: froide/foirequest/models.py:254 froide/frontpage/models.py:23
+msgid "Title"
+msgstr "标题"
+
+#: froide/account/templates/account/show.html:100
+#: froide/foirequest/models.py:1055
+msgid "Recipient"
+msgstr "被申请人"
+
+#: froide/account/templates/account/show.html:101
+#: froide/foirequest/forms.py:266 froide/foirequest/models.py:262
+#: froide/foirequest/models.py:1062
+#: froide/foirequest/templates/foirequest/show.html:633
+msgid "Status"
+msgstr "状态"
+
+#: froide/account/templates/account/show.html:102
+msgid "Last Message"
+msgstr "最新消息"
+
+#: froide/account/templates/account/show.html:103
+#: froide/foirequest/models.py:250
+msgid "Public"
+msgstr "公开"
+
+#: froide/account/templates/account/show.html:116
+#: froide/foirequest/templates/foirequest/_requests_as_table.html:14
+#: froide/foirequest/templates/foirequest/show.html:321
+#: froide/foirequest/templates/foirequest/snippets/request_item.html:21
+msgid "Not yet set"
+msgstr "尚未设置"
+
+#: froide/account/templates/account/show.html:124
+#, python-format
+msgid "until %(date)s"
+msgstr "截至到 %(date)s"
+
+#: froide/account/templates/account/show.html:129
+msgid "Yes"
+msgstr "是"
+
+#: froide/account/templates/account/show.html:130
+msgid "No"
+msgstr "否"
+
+#: froide/foiidea/templates/foiidea/_article.html:19
+msgid "Requests based on this article:"
+msgstr "基于此文的信息公开申请："
+
+#: froide/foiidea/templates/foiidea/_article.html:24
+#, python-format
+msgid "Request \"%(title)s\" to %(name)s"
+msgstr "向%(name)s提出的关于\"%(title)s\"的信息公开申请"
+
+#: froide/foiidea/templates/foiidea/_article.html:31
+msgid "Make a request based on this article:"
+msgstr "基于此文提出信息公开申请："
+
+#: froide/foiidea/templates/foiidea/_article.html:36
+#, python-format
+msgid "Make request to %(name)s"
+msgstr "向%(name)s提出信息公开申请"
+
+#: froide/foiidea/templates/foiidea/_article.html:45
+msgid "Ideas for requests:"
+msgstr "信息公开申请的新点子："
+
+#: froide/foiidea/templates/foiidea/_article.html:48
+msgid "Provide an idea for a request based on this article"
+msgstr "基于此文提出一个信息公开申请的点子"
+
+#: froide/foiidea/templates/foiidea/_article.html:55
+msgid "Please login to provide an idea."
+msgstr "请登入来提供点子"
+
+#: froide/foiidea/templates/foiidea/index.html:8
+msgid "Read the news and make requests!"
+msgstr "阅读新闻并提出信息公开申请！"
+
+#: froide/foirequest/admin.py:43
+#, python-format
+msgid "%d request(s) successfully marked as checked."
+msgstr "已标记 %d 项信息公开申请为「已检阅」。 "
+
+#: froide/foirequest/admin.py:44
+msgid "Mark selected requests as checked"
+msgstr "标记所选信息公开申请为「已检阅」"
+
+#: froide/foirequest/admin.py:48
+#, python-format
+msgid "%d request(s) successfully marked as not FoI."
+msgstr "已标记 %d 项信息公开申请为 「非信息公开范畴」"
+
+#: froide/foirequest/admin.py:49
+msgid "Mark selected requests as not FoI"
+msgstr "标记所选信息公开申请为「非信息公开范畴」"
+
+#: froide/foirequest/admin.py:69
+msgid "Successfully marked requests as identical."
+msgstr "已标记所选信息公开申请为「重复申请」"
+
+#: froide/foirequest/admin.py:92
+msgid "Mark selected requests as identical to..."
+msgstr "标记所选信息公开申请为「重复申请」"
+
+#: froide/foirequest/admin.py:110
+msgid "Successfully added tags to requests"
+msgstr "已向所选信息公开申请增加新标签"
+
+#: froide/foirequest/admin.py:126
+msgid "Tag all requests with..."
+msgstr "为所有信息公开申请添加标签"
+
+#: froide/foirequest/admin.py:136 froide/publicbody/admin.py:35
+msgid "Removed from search index"
+msgstr "已从搜索索引中移除"
+
+#: froide/foirequest/admin.py:137 froide/publicbody/admin.py:36
+msgid "Remove from search index"
+msgstr "从搜索索引中移除"
+
+#: froide/foirequest/admin.py:169
+#, python-format
+msgid "%d attachment(s) successfully approved."
+msgstr "%d 项附件已被批准"
+
+#: froide/foirequest/admin.py:170
+msgid "Mark selected as approved"
+msgstr "标记所选项为「已批准」"
+
+#: froide/foirequest/admin.py:174
+#, python-format
+msgid "%d attachment(s) successfully marked as not approvable."
+msgstr "%d 项附件已被标记为「不批准」"
+
+#: froide/foirequest/admin.py:175
+msgid "Mark selected as NOT approvable"
+msgstr "标记所选项为「不批准」"
+
+#: froide/foirequest/admin.py:184
+msgid "Converted to PDF."
+msgstr "已转化为PDF。"
+
+#: froide/foirequest/admin.py:185
+msgid "Convert to PDF"
+msgstr "转化成PDF"
+
+#: froide/foirequest/admin.py:206
+msgid "Has request"
+msgstr "有信息公开申请"
+
+#: froide/foirequest/admin.py:241
+msgid "Successfully triggered redelivery."
+msgstr "已重新发送。"
+
+#: froide/foirequest/admin.py:263
+msgid "Redeliver to..."
+msgstr "重新发送给..."
+
+#: froide/foirequest/feeds.py:24
+#, python-format
+msgid "by topic %(topic)s"
+msgstr "根据主题%(topic)s"
+
+#: froide/foirequest/feeds.py:26
+#, python-format
+msgid "by status %(status)s"
+msgstr "根据状态%(status)s"
+
+#: froide/foirequest/feeds.py:31
+#, python-format
+msgid "by tag %(tag)s"
+msgstr "根据标签%(tag)s"
+
+#: froide/foirequest/feeds.py:33
+#, python-format
+msgid "for %(juris)s"
+msgstr "为%(juris)s"
+
+#: froide/foirequest/feeds.py:35
+#, python-format
+msgid "to %(public_body)s"
+msgstr "向%(public_body)s"
+
+#: froide/foirequest/feeds.py:41
+#, python-format
+msgid "Freedom of Information Requests %(by)s on %(sitename)s"
+msgstr "在%(sitename)s上的%(by)s的信息公开申请"
+
+#: froide/foirequest/feeds.py:45
+#, python-format
+msgid "Freedom of Information Requests on %(sitename)s"
+msgstr "在%(sitename)s上的信息公开申请"
+
+#: froide/foirequest/feeds.py:52
+#, python-format
+msgid ""
+"This feed contains the Freedom of Information requests %(by)s that have been"
+" made through %(sitename)s."
+msgstr "该feed包含了在%(sitename)s上的%(by)s的信息公开申请。"
+
+#: froide/foirequest/feeds.py:57
+#, python-format
+msgid ""
+"This feed contains the latest Freedom of Information requests that have been"
+" made through %(sitename)s."
+msgstr "该feed包含在%(sitename)s上的最新的信息公开申请。"
+
+#: froide/foirequest/feeds.py:86
+#: froide/foirequest/templates/foirequest/show.html:298
+msgid "Not yet known"
+msgstr "未知"
+
+#: froide/foirequest/feeds.py:87
+#, python-format
+msgid "'%(title)s' to %(publicbody)s"
+msgstr "向%(publicbody)s提出的'%(title)s'申请"
+
+#: froide/foirequest/foi_mail.py:12
+#, python-format
+msgid ""
+"We received an FoI mail to this address: %(address)s.\n"
+"No corresponding request could be identified, please investigate!\n"
+"%(url)s\n"
+msgstr "我们收到了来自%(address)s的信息公开回复邮件。⏎\n没有找到对应的申请，请检查！⏎\n%(url)s⏎\n"
+
+#: froide/foirequest/foi_mail.py:81 froide/foirequest/tests/test_mail.py:73
+msgid "Unknown FoI-Mail Recipient"
+msgstr "未知的信息公开邮件收件人"
+
+#: froide/foirequest/forms.py:30
+msgid "Search for a topic or a public body:"
+msgstr "搜索一个信息公开主题或者被申请人："
+
+#: froide/foirequest/forms.py:32 froide/foirequest/forms.py:34
+#: froide/foirequest/forms.py:162 froide/foirequest/forms.py:224
+#: froide/foirequest/forms.py:404 froide/foirequest/forms.py:406
+#: froide/foirequest/models.py:1066
+#: froide/foirequest/templates/foirequest/_request_form.html:11
+#: froide/foirequest/templates/foirequest/request.html:290
+#: froide/foirequest/templates/foirequest/show.html:610
+msgid "Subject"
+msgstr "标题"
+
+#: froide/foirequest/forms.py:36
+msgid "Body"
+msgstr "内容"
+
+#: froide/foirequest/forms.py:39
+msgid "Specify your request here..."
+msgstr "在此详述你的申请内容..."
+
+#: froide/foirequest/forms.py:43
+msgid "This request will be public immediately."
+msgstr "这项申请将会即时公开。"
+
+#: froide/foirequest/forms.py:54 froide/foirequest/forms.py:355
+msgid "Information Law"
+msgstr "信息法案"
+
+#: froide/foirequest/forms.py:72
+msgid "You are not allowed to create a new public body"
+msgstr "你无权创建新的公共机构"
+
+#: froide/foirequest/forms.py:76
+msgid "You must specify a public body"
+msgstr "你必须明确一个公共机构"
+
+#: froide/foirequest/forms.py:82 froide/foirequest/forms.py:86
+#: froide/foirequest/forms.py:153 froide/foirequest/forms.py:213
+#: froide/foirequest/forms.py:217 froide/foirequest/forms.py:308
+msgid "Invalid value"
+msgstr "无效的值"
+
+#: froide/foirequest/forms.py:111 froide/foirequest/forms.py:120
+msgid "Invalid Information Law"
+msgstr "无效的信息法案"
+
+#: froide/foirequest/forms.py:136
+msgid "Sending Public Body"
+msgstr "正向公共机构发送申请"
+
+#: froide/foirequest/forms.py:165 froide/foirequest/forms.py:229
+msgid "Your message"
+msgstr "你的消息"
+
+#: froide/foirequest/forms.py:172
+#, python-format
+msgid "Default address of %(publicbody)s"
+msgstr "%(publicbody)s的默认地址"
+
+#: froide/foirequest/forms.py:174
+#: froide/foirequest/templates/foirequest/request.html:282
+#: froide/foirequest/templates/foirequest/show.html:627
+msgid "To"
+msgstr "发送到"
+
+#: froide/foirequest/forms.py:179
+msgid "Send physical address"
+msgstr "发送实际通讯地址"
+
+#: froide/foirequest/forms.py:180
+msgid ""
+"If the public body is asking for your post address, check this and we will "
+"append it to your message."
+msgstr "如果公共机构需要你的邮寄地址，那么请勾选此项，我们会将你的地址附在你的消息之后。"
+
+#: froide/foirequest/forms.py:204
+msgid "Please specify a reason why this is the right Public Body:"
+msgstr "请说明为什么该公共机构是正确的被申请人："
+
+#: froide/foirequest/forms.py:205
+msgid "Reason"
+msgstr "理由"
+
+#: froide/foirequest/forms.py:242
+msgid "Suggestions"
+msgstr "建议"
+
+#: froide/foirequest/forms.py:249 froide/publicbody/models.py:308
+msgid "More Info"
+msgstr "更多信息"
+
+#: froide/foirequest/forms.py:250
+#, python-format
+msgid "Reason for this suggestion: %(reason)s"
+msgstr "给出该建议的理由：%(reason)s"
+
+#: froide/foirequest/forms.py:259
+#: froide/foirequest/templates/foirequest/show.html:342
+msgid "Refusal Reason"
+msgstr "拒绝的理由"
+
+#: froide/foirequest/forms.py:260
+msgid "No or other reason given"
+msgstr "没有理由或者其他理由"
+
+#: froide/foirequest/forms.py:263
+msgid ""
+"When you are (partially) denied access to information, the Public Body "
+"should always state the reason."
+msgstr "当你被拒绝访问（部分）信息，公共机构必须说明理由。"
+
+#: froide/foirequest/forms.py:268
+msgid "This request is still ongoing."
+msgstr "这项申请仍在处理中。"
+
+#: froide/foirequest/forms.py:269
+msgid "This request is finished."
+msgstr "这项申请已完结。"
+
+#: froide/foirequest/forms.py:274 froide/foirequest/models.py:264
+msgid "Resolution"
+msgstr "决议"
+
+#: froide/foirequest/forms.py:275
+msgid "No outcome yet"
+msgstr "尚无结果"
+
+#: froide/foirequest/forms.py:277
+msgid "How would you describe the current outcome of this request?"
+msgstr "你会如何描述现有的申请结果？"
+
+#: froide/foirequest/forms.py:279
+msgid "Redirected to"
+msgstr "重投递到"
+
+#: froide/foirequest/forms.py:282
+msgid ""
+"If your message is redirected to a different Public Body, please specify the"
+" new Public Body"
+msgstr "如果你的申请被重投递到另一个公共机构，请明确该机构名称"
+
+#: froide/foirequest/forms.py:286
+msgid "Costs"
+msgstr "花费"
+
+#: froide/foirequest/forms.py:290
+msgid "Please specify what the Public Body charges for the information."
+msgstr "请说明公共机构对该信息的收费情况。"
+
+#: froide/foirequest/forms.py:304
+msgid "Provide the redirected public body!"
+msgstr "请提供重投递的公共机构名称！"
+
+#: froide/foirequest/forms.py:311
+msgid "Please give a resolution to this request"
+msgstr "请给出该申请的决议"
+
+#: froide/foirequest/forms.py:362
+msgid "Invalid FoI Request for this operation"
+msgstr "无效的信息公开申请操作"
+
+#: froide/foirequest/forms.py:388
+#, python-format
+msgid ""
+"The scanned letter must be either PDF, JPG or PNG, but was detected as "
+"%(content_type)s!"
+msgstr "扫描的回复文件必须是PDF，JPG或者PNG格式，但你提供的却是%(content_type)s!"
+
+#: froide/foirequest/forms.py:395
+msgid ""
+"Uploaded scans can be PDF, JPG or PNG. Please make sure to "
+"<strong>redact/black out all private information concerning you</strong>. "
+"All uploaded documents will be published!"
+msgstr "上传的扫描文件可以是PDF，JPG或者PNG。请确保<strong>隐去所有的私人信息</strong>。所有的上传文件都将公开可见！"
+
+#: froide/foirequest/forms.py:398
+msgid "Send Date"
+msgstr "寄送日期"
+
+#: froide/foirequest/forms.py:399
+msgid "Please give the date the reply was sent."
+msgstr "请填写回复寄出的日期"
+
+#: froide/foirequest/forms.py:401 froide/foirequest/forms.py:403
+msgid "Sender Name"
+msgstr "寄送者姓名"
+
+#: froide/foirequest/forms.py:407
+msgid "Letter"
+msgstr "信件"
+
+#: froide/foirequest/forms.py:409
+msgid "Letter text you have received"
+msgstr "你收到的信件内容"
+
+#: froide/foirequest/forms.py:413
+msgid "The text can be left empty, instead you can upload scanned documents."
+msgstr "你也可以选择上传信件而将信件内容留空。"
+
+#: froide/foirequest/forms.py:414
+msgid "Scanned Letter"
+msgstr "信件扫描件"
+
+#: froide/foirequest/forms.py:416
+msgid "You are not allowed to publish some received documents"
+msgstr "你不被允许公开部分回复内容"
+
+#: froide/foirequest/forms.py:418
+msgid ""
+"If the reply explicitly states that you are not allowed to publish some of "
+"the documents (e.g. due to copyright), check this."
+msgstr "如果回复中注明你不能发表回复结果（比如版权限制），那么请勾选此项。"
+
+#: froide/foirequest/forms.py:424
+msgid "Your reply date is in the future, that is not possible."
+msgstr "你填写的回复日期在未来，这太夸张了吧？"
+
+#: froide/foirequest/forms.py:432
+msgid "You need to provide either the letter text or a scanned document."
+msgstr "你需要提供信件内容或者扫描件"
+
+#: froide/foirequest/forms.py:437
+msgid "Scanned Document"
+msgstr "文档扫描件"
+
+#: froide/foirequest/forms.py:442 froide/foirequest/forms.py:443
+#: froide/foirequest/templates/foirequest/show.html:479
+msgid "Tags"
+msgstr "标签"
+
+#: froide/foirequest/forms.py:444
+msgid "Comma separated and quoted"
+msgstr "逗号分割并且引号引用"
+
+#. Translators: part in request filter URL
+#: froide/foirequest/make_request_urls.py:8
+#: froide/foirequest/make_request_urls.py:10 froide/foirequest/urls.py:53
+#: froide/foirequest/urls.py:55 froide/foirequest/urls.py:57
+msgctxt "URL part"
+msgid "to"
+msgstr "至"
+
+#: froide/foirequest/models.py:130
+msgid "FoI Request Tag"
+msgstr "信息公开申请标签"
+
+#: froide/foirequest/models.py:131
+msgid "FoI Request Tags"
+msgstr "信息公开申请标签"
+
+#: froide/foirequest/models.py:137
+msgid "Awaiting user confirmation"
+msgstr "等待用户确认"
+
+#: froide/foirequest/models.py:138
+msgid "The requester's email address is yet to be confirmed."
+msgstr "申请者的邮件地址还未确认。"
+
+#: froide/foirequest/models.py:142
+msgid "Public Body needed"
+msgstr "需要选择一个公共机构"
+
+#: froide/foirequest/models.py:143
+msgid "This request still needs a Public Body."
+msgstr "这项申请仍然缺少被申请人（公共机构）"
+
+#: froide/foirequest/models.py:147
+msgid "Awaiting Public Body confirmation"
+msgstr "等待被申请人确认"
+
+#: froide/foirequest/models.py:148
+msgid ""
+"The Public Body of this request has been created by the user and still needs"
+" to be confirmed."
+msgstr "被申请人为用户创建，该信息仍需确认。"
+
+#: froide/foirequest/models.py:152
+msgid "Awaiting response"
+msgstr "等待答复"
+
+#: froide/foirequest/models.py:153
+msgid "This request is still waiting for a response from the Public Body."
+msgstr "这项申请仍在等待被申请人的答复"
+
+#: froide/foirequest/models.py:157
+msgid "Request awaits classification"
+msgstr "等待申请被分类"
+
+#: froide/foirequest/models.py:158
+msgid "A message was received and the user needs to set a new status."
+msgstr "收到了一条新消息，并且用户应该更新申请状态。"
+
+#: froide/foirequest/models.py:162
+msgid "Request asleep"
+msgstr "申请进入冬眠状态"
+
+#: froide/foirequest/models.py:163
+msgid "The request is not resolved and has not been active for a while."
+msgstr "申请还未收到决议但已一段时间不活跃。"
+
+#: froide/foirequest/models.py:167
+msgid "Request resolved"
+msgstr "申请已解决"
+
+#: froide/foirequest/models.py:168
+msgid "The request is resolved."
+msgstr "申请已解决。"
+
+#: froide/foirequest/models.py:175
+msgid "Request Successful"
+msgstr "成功的申请"
+
+#: froide/foirequest/models.py:176
+msgid "The request has been successul."
+msgstr "这个申请已成功。"
+
+#: froide/foirequest/models.py:180
+msgid "Request partially successful"
+msgstr "申请部分成功"
+
+#: froide/foirequest/models.py:181
+msgid ""
+"The request has been partially successful (some information was provided, "
+"but not all)"
+msgstr "申请部分成功（得到一部分信息，但非全部）"
+
+#: froide/foirequest/models.py:184
+msgid "Information not held"
+msgstr "没有相关信息"
+
+#: froide/foirequest/models.py:185
+msgid "The Public Body stated that it does not possess the information."
+msgstr "被申请人说明它没有相关信息。"
+
+#: froide/foirequest/models.py:189
+msgid "Request refused"
+msgstr "申请被拒绝"
+
+#: froide/foirequest/models.py:190
+msgid "The Public Body refuses to provide the information."
+msgstr "被申请人拒绝提供信息。"
+
+#: froide/foirequest/models.py:194
+msgid "Request was withdrawn due to costs"
+msgstr "由于成本原因，申请已撤回"
+
+#: froide/foirequest/models.py:195
+msgid "User withdrew the request due to the associated costs."
+msgstr "用户因成本问题，撤回申请。"
+
+#: froide/foirequest/models.py:199
+msgid "Request was withdrawn"
+msgstr "申请被撤回"
+
+#: froide/foirequest/models.py:200
+msgid "User withdrew the request for other reasons."
+msgstr "用户因其他原因撤回申请。"
+
+#: froide/foirequest/models.py:209
+msgid "successful"
+msgstr "成功"
+
+#: froide/foirequest/models.py:210
+msgid "partially-successful"
+msgstr "部分成功"
+
+#: froide/foirequest/models.py:211
+msgid "refused"
+msgstr "拒绝"
+
+#: froide/foirequest/models.py:213
+msgid "withdrawn"
+msgstr "撤回"
+
+#: froide/foirequest/models.py:214
+msgid "withdrawn-costs"
+msgstr "成本原因撤回"
+
+#: froide/foirequest/models.py:215
+msgid "publicbody-needed"
+msgstr "需要被申请人"
+
+#: froide/foirequest/models.py:216
+msgid "awaiting-response"
+msgstr "等待回复"
+
+#: froide/foirequest/models.py:217
+msgid "overdue"
+msgstr "超期"
+
+#: froide/foirequest/models.py:220
+msgid "asleep"
+msgstr "冬眠"
+
+#: froide/foirequest/models.py:221
+msgid "not-held"
+msgstr "没有相关信息"
+
+#: froide/foirequest/models.py:222
+msgid "has-fee"
+msgstr "有相关花费"
+
+#: froide/foirequest/models.py:235
+msgid "Response overdue"
+msgstr "回复超期"
+
+#: froide/foirequest/models.py:236
+msgid "The request has not been answered in time."
+msgstr "申请未在期限内答复"
+
+#: froide/foirequest/models.py:240
+msgid "Fee charged"
+msgstr "被收费"
+
+#: froide/foirequest/models.py:241
+msgid "This request is connected with a fee."
+msgstr "这项申请被收费"
+
+#: froide/foirequest/models.py:248
+msgid "Invisible"
+msgstr "不可见"
+
+#: froide/foirequest/models.py:249
+msgid "Visible to Requester"
+msgstr "对申请人可见"
+
+#: froide/foirequest/models.py:255 froide/publicbody/models.py:32
+#: froide/publicbody/models.py:73 froide/publicbody/models.py:198
+#: froide/publicbody/models.py:216
+msgid "Slug"
+msgstr "别名"
+
+#: froide/foirequest/models.py:256 froide/publicbody/models.py:33
+#: froide/publicbody/models.py:74 froide/publicbody/models.py:199
+#: froide/publicbody/models.py:217
+msgid "Description"
+msgstr "描述"
+
+#: froide/foirequest/models.py:257
+msgid "Summary"
+msgstr "综述"
+
+#: froide/foirequest/models.py:260 froide/foirequest/models.py:1016
+#: froide/foirequest/models.py:1384 froide/publicbody/models.py:263
+msgid "Public Body"
+msgstr "公共机构"
+
+#: froide/foirequest/models.py:267
+msgid "published?"
+msgstr "已公开？"
+
+#: froide/foirequest/models.py:268
+msgid "Visibility"
+msgstr "可见性"
+
+#: froide/foirequest/models.py:273 froide/foirequest/models.py:1019
+#: froide/foirequest/models.py:1381 froide/foirequestfollower/models.py:50
+#: froide/frontpage/models.py:28
+msgid "User"
+msgstr "用户"
+
+#: froide/foirequest/models.py:275
+msgid "Date of first message"
+msgstr "第一条消息的日期"
+
+#: froide/foirequest/models.py:277
+msgid "Date of last message"
+msgstr "最后一条消息的日期"
+
+#: froide/foirequest/models.py:279
+msgid "Resolution date"
+msgstr "决议日期"
+
+#: froide/foirequest/models.py:281
+msgid "Due Date"
+msgstr "到期时间"
+
+#: froide/foirequest/models.py:284
+msgid "Secret address"
+msgstr "保密地址"
+
+#: froide/foirequest/models.py:286
+msgid "Secret"
+msgstr "保密"
+
+#: froide/foirequest/models.py:290
+msgid "Identical request"
+msgstr "重复申请"
+
+#: froide/foirequest/models.py:291
+msgid "Identical request count"
+msgstr "重复申请数量"
+
+#: froide/foirequest/models.py:295 froide/publicbody/models.py:108
+msgid "Freedom of Information Law"
+msgstr "信息公开条例"
+
+#: froide/foirequest/models.py:296
+msgid "Cost of Information"
+msgstr "信息成本"
+
+#: froide/foirequest/models.py:297
+msgid "Refusal reason"
+msgstr "拒绝理由"
+
+#: froide/foirequest/models.py:299
+msgid "checked"
+msgstr "勾选的"
+
+#: froide/foirequest/models.py:300
+msgid "is FoI request"
+msgstr "是信息公开申请"
+
+#: froide/foirequest/models.py:302 froide/publicbody/models.py:40
+#: froide/publicbody/models.py:83 froide/publicbody/models.py:251
+#: froide/publicbody/templates/publicbody/show.html:24
+msgid "Jurisdiction"
+msgstr "司法部门"
+
+#: froide/foirequest/models.py:306 froide/frontpage/models.py:30
+#: froide/publicbody/models.py:103 froide/publicbody/models.py:248
+msgid "Site"
+msgstr "站点"
+
+#: froide/foirequest/models.py:317 froide/foirequest/models.py:1014
+#: froide/foirequest/models.py:1034 froide/foirequest/models.py:1378
+#: froide/foirequestfollower/models.py:49
+msgid "Freedom of Information Request"
+msgstr "信息公开申请"
+
+#: froide/foirequest/models.py:318 froide/templates/base.html:6
+#: froide/templates/simple_base.html:6
+msgid "Freedom of Information Requests"
+msgstr "信息公开申请"
+
+#: froide/foirequest/models.py:320
+msgid "Can see private requests"
+msgstr "可见私人申请"
+
+#: froide/foirequest/models.py:338
+#, python-format
+msgid "Request '%s'"
+msgstr "申请 ‘%s'"
+
+#: froide/foirequest/models.py:414 froide/foirequest/models.py:1182
+#: froide/foirequest/models.py:1200 froide/foirequest/models.py:1207
+msgid "<<email address>>"
+msgstr "<<邮件地址>>"
+
+#: froide/foirequest/models.py:573
+#, python-format
+msgid "Re: %(subject)s"
+msgstr "回复: %(subject)s"
+
+#: froide/foirequest/models.py:580
+#, python-format
+msgid ""
+"Dear Sir or Madam,\n"
+"\n"
+"...\n"
+"\n"
+"Sincerely yours\n"
+"%(name)s\n"
+msgstr "您好,⏎\n⏎\n...⏎\n⏎\n祝好！⏎\n%(name)s⏎\n"
+
+#: froide/foirequest/models.py:588
+#, python-format
+msgid "Complaint about request \"%(title)s\""
+msgstr "对申请\"%(title)s\"的申诉"
+
+#: froide/foirequest/models.py:633
+#, python-format
+msgid "attached_file_%d"
+msgstr "attached_file_%d"
+
+#. Translators: replacement for person name in filename
+#: froide/foirequest/models.py:639
+msgid "NAME"
+msgstr "名字"
+
+#: froide/foirequest/models.py:652
+msgid "Message contains PDF"
+msgstr "消息包含PDF"
+
+#: froide/foirequest/models.py:728 froide/foirequest/models.py:732
+msgid "Unknown"
+msgstr "未知"
+
+#: froide/foirequest/models.py:955
+#, python-format
+msgid "%(site_name)s: Please classify the reply to your request"
+msgstr "%(site_name)s: 请为你申请收到的回复分类"
+
+#: froide/foirequest/models.py:970
+#, python-format
+msgid "%(site_name)s: Update on one of your request"
+msgid_plural "%(site_name)s: Update on %(count)s of your requests"
+msgstr[0] "%(site_name)s: 你的 %(count)s 项申请有更新"
+
+#: froide/foirequest/models.py:1020
+msgid "Timestamp of Suggestion"
+msgstr "建议的时间戳"
+
+#: froide/foirequest/models.py:1022
+msgid "Reason this Public Body fits the request"
+msgstr "选择该被申请人的理由"
+
+#: froide/foirequest/models.py:1028
+msgid "Public Body Suggestion"
+msgstr "可考虑的被申请人"
+
+#: froide/foirequest/models.py:1029
+msgid "Public Body Suggestions"
+msgstr "可考虑的被申请人"
+
+#: froide/foirequest/models.py:1035
+msgid "has message been sent?"
+msgstr "消息已被寄出吗？"
+
+#: froide/foirequest/models.py:1036
+msgid "Is this message a response?"
+msgstr "该消息是回复吗？"
+
+#: froide/foirequest/models.py:1038
+msgid "Postal?"
+msgstr "邮寄方式？"
+
+#: froide/foirequest/models.py:1040
+msgid "Escalation?"
+msgstr "Escalation?"
+
+#: froide/foirequest/models.py:1042
+msgid "Content hidden?"
+msgstr "隐藏内容？"
+
+#: froide/foirequest/models.py:1046
+msgid "From User"
+msgstr "来自用户"
+
+#: froide/foirequest/models.py:1047
+msgid "From Email"
+msgstr "来自邮件"
+
+#: froide/foirequest/models.py:1049
+msgid "From Name"
+msgstr "来自姓名"
+
+#: froide/foirequest/models.py:1053
+msgid "From Public Body"
+msgstr "来自公共机构"
+
+#: froide/foirequest/models.py:1057
+msgid "Recipient Email"
+msgstr "收件人邮件地址"
+
+#: froide/foirequest/models.py:1061
+msgid "Public Body Recipient"
+msgstr "公共机构收件人"
+
+#: froide/foirequest/models.py:1065 froide/foirequest/models.py:1387
+#: froide/frontpage/models.py:22
+msgid "Timestamp"
+msgstr "时间戳"
+
+#: froide/foirequest/models.py:1067
+msgid "Redacted Subject"
+msgstr "特殊处理过的标题"
+
+#: froide/foirequest/models.py:1068
+msgid "plain text"
+msgstr "纯文本"
+
+#: froide/foirequest/models.py:1069
+msgid "redacted plain text"
+msgstr "特殊处理的文本"
+
+#: froide/foirequest/models.py:1070
+msgid "HTML"
+msgstr "HTML"
+
+#: froide/foirequest/models.py:1071
+msgid "Original"
+msgstr "原始的"
+
+#: froide/foirequest/models.py:1072
+msgid "Was Redacted?"
+msgstr "是否特殊处理过？"
+
+#: froide/foirequest/models.py:1073
+msgid "Not publishable"
+msgstr "不可发表的"
+
+#: froide/foirequest/models.py:1079
+msgid "Freedom of Information Message"
+msgstr "信息公开消息"
+
+#: froide/foirequest/models.py:1080
+msgid "Freedom of Information Messages"
+msgstr "信息公开消息"
+
+#: froide/foirequest/models.py:1087
+#, python-format
+msgid "Message in '%(request)s' at %(time)s"
+msgstr "'%(request)s'的消息，%(time)s'"
+
+#: froide/foirequest/models.py:1096
+#, python-format
+msgid "message-%(id)d"
+msgstr "消息-%(id)d"
+
+#: froide/foirequest/models.py:1181 froide/foirequest/models.py:1199
+msgid "<<name and email address>>"
+msgstr "<<姓名和邮件地址>"
+
+#: froide/foirequest/models.py:1243
+msgid "Belongs to request"
+msgstr "属于此信息公开申请"
+
+#: froide/foirequest/models.py:1244 froide/foisite/models.py:10
+#: froide/publicbody/models.py:31 froide/publicbody/models.py:72
+#: froide/publicbody/models.py:197 froide/publicbody/models.py:214
+#: froide/publicbody/templates/publicbody/pb_jurisdiction.html:13
+#: froide/publicbody/templates/publicbody/show_topic.html:21
+msgid "Name"
+msgstr "姓名"
+
+#: froide/foirequest/models.py:1245
+msgid "File"
+msgstr "文件"
+
+#: froide/foirequest/models.py:1246
+msgid "Size"
+msgstr "尺寸"
+
+#: froide/foirequest/models.py:1247
+msgid "File type"
+msgstr "文件类型"
+
+#: froide/foirequest/models.py:1248
+msgid "Format"
+msgstr "文件格式"
+
+#: froide/foirequest/models.py:1249
+msgid "User can approve"
+msgstr "用户可批准"
+
+#: froide/foirequest/models.py:1250
+msgid "Approved"
+msgstr "已批准"
+
+#: froide/foirequest/models.py:1251
+msgid "Redacted Version"
+msgstr "特殊处理的版本"
+
+#: froide/foirequest/models.py:1254 froide/foirequest/models.py:1258
+msgid "Is redacted"
+msgstr "是特殊处理过的"
+
+#: froide/foirequest/models.py:1255
+msgid "Converted Version"
+msgstr "转化后的版本"
+
+#: froide/foirequest/models.py:1293
+msgid "Attachment"
+msgstr "附件"
+
+#: froide/foirequest/models.py:1294
+#: froide/foirequest/templates/foirequest/list_unchecked.html:23
+#: froide/foirequest/templates/foirequest/show.html:647
+msgid "Attachments"
+msgstr "附件"
+
+#: froide/foirequest/models.py:1316
+#, python-format
+msgid "attachment-%(id)d"
+msgstr "附件-%(id)d"
+
+#: froide/foirequest/models.py:1354
+msgid "See FoiMessage"
+msgstr "阅读信息公开消息"
+
+#: froide/foirequest/models.py:1385
+msgid "Is Public?"
+msgstr "是否公开？"
+
+#: froide/foirequest/models.py:1386
+msgid "Event Name"
+msgstr "动态名称"
+
+#: froide/foirequest/models.py:1388
+msgid "Context JSON"
+msgstr "Context JSON"
+
+#: froide/foirequest/models.py:1394
+#, python-format
+msgid "%(user)s suggested %(public_body)s for the request '%(request)s'"
+msgstr "%(user)s 为信息公开申请'%(request)s'建议一个被申请人单位为%(public_body)s "
+
+#: froide/foirequest/models.py:1396
+#, python-format
+msgid "%(user)s reported costs of %(amount)s for this request."
+msgstr "%(user)s报告了该信息公开申请花费了共%(amount)s元。"
+
+#: froide/foirequest/models.py:1398
+#, python-format
+msgid "Received an email from %(public_body)s."
+msgstr "从被申请人%(public_body)s处收到邮件。"
+
+#: froide/foirequest/models.py:1400
+#, python-format
+msgid "%(user)s sent a message to %(public_body)s."
+msgstr "%(user)s向被申请人%(public_body)s发送了一条消息。"
+
+#: froide/foirequest/models.py:1402
+#, python-format
+msgid "Request was redirected to %(public_body)s and due date has been reset."
+msgstr "信息公开申请被重投递到%(public_body)s，且答复期限被重置。"
+
+#: froide/foirequest/models.py:1404
+#, python-format
+msgid "%(user)s set status to '%(status)s'."
+msgstr "%(user)s 设定申请状态为 '%(status)s'."
+
+#: froide/foirequest/models.py:1406
+#, python-format
+msgid "%(user)s made the request '%(request)s' public."
+msgstr "%(user)s 提出了公开的信息公开申请： '%(request)s'。"
+
+#: froide/foirequest/models.py:1408
+#, python-format
+msgid ""
+"%(public_body)s refused to provide information on the grounds of %(reason)s."
+msgstr "%(public_body)s 基于%(reason)s的理由，拒绝提供相关信息。"
+
+#: froide/foirequest/models.py:1410
+#, python-format
+msgid ""
+"%(public_body)s answered partially, but denied access to all information on "
+"the grounds of %(reason)s."
+msgstr "%(public_body)s基于%(reason)s的理由，同意提供部分信息，但拒绝提供全部信息。"
+
+#: froide/foirequest/models.py:1412
+msgid "This request became overdue"
+msgstr "该信息公开申请已超期"
+
+#: froide/foirequest/models.py:1414
+#, python-format
+msgid ""
+"%(user)s set '%(name)s' as the information law for the request %(request)s."
+msgstr "%(user)s设定'%(name)s'为信息公开申请%(request)s的相关法律。"
+
+#: froide/foirequest/models.py:1416
+#, python-format
+msgid "%(user)s added a reply that was received via snail mail."
+msgstr "%(user)s添加了一个由邮递途径收到的回复。"
+
+#: froide/foirequest/models.py:1418
+#, python-format
+msgid ""
+"%(user)s filed a complaint to the %(public_body)s about the handling of this"
+" request %(request)s."
+msgstr "%(user)s向被申请人%(public_body)s提出关于信息公开申请%(request)s的申诉。"
+
+#: froide/foirequest/models.py:1420
+#, python-format
+msgid "The deadline of request %(request)s has been extended."
+msgstr "信息公开申请%(request)s的截止日期已被延长。"
+
+#: froide/foirequest/models.py:1425
+msgid "Request Event"
+msgstr "信息公开申请动态"
+
+#: froide/foirequest/models.py:1426
+msgid "Request Events"
+msgstr "信息公开申请动态"
+
+#. Translators: Hash part of Event URL
+#: froide/foirequest/models.py:1439
+msgid "event"
+msgstr "动态"
+
+#: froide/foirequest/models.py:1502
+msgid "Undelivered Message"
+msgstr "未送达的消息"
+
+#: froide/foirequest/models.py:1503
+msgid "Undelivered Messages"
+msgstr "未送达的消息"
+
+#: froide/foirequest/models.py:1506
+#, python-format
+msgid "Undelievered Message to %(recipient)s (%(request)s)"
+msgstr "未送达被申请人%(recipient)s (关于申请%(request)s) 的消息"
+
+#: froide/foirequest/signals.py:27
+#, python-format
+msgid "%(site_name)s: Request became overdue"
+msgstr "%(site_name)s: 申请已超期"
+
+#: froide/foirequest/signals.py:44
+#, python-format
+msgid "%(site_name)s: Request became asleep"
+msgstr "%(site_name)s: 申请进入「冬眠」状态"
+
+#: froide/foirequest/signals.py:61
+msgid "You received a reply to your Freedom of Information Request"
+msgstr "你收到了一条信息公开申请的回复"
+
+#: froide/foirequest/signals.py:74
+msgid "Your request received a suggestion for a Public Body"
+msgstr "你的信息公开申请收到了一条关于被申请人的建议"
+
+#: froide/foirequest/signals.py:89
+msgid "Your Freedom of Information Request was sent"
+msgstr "你的信息公开申请已寄出"
+
+#: froide/foirequest/signals.py:92
+msgid "Your Message was sent"
+msgstr "你的消息已寄出"
+
+#: froide/foirequest/urls.py:11
+msgctxt "URL part"
+msgid "not-foi"
+msgstr "非信息公开范畴"
+
+#: froide/foirequest/urls.py:15 froide/foirequest/urls.py:18
+msgctxt "URL part"
+msgid "latest"
+msgstr "最新的"
+
+#. Translators: part in request filter URL
+#. Translators: part in Public Body URL
+#: froide/foirequest/urls.py:37 froide/foirequest/urls.py:39
+#: froide/foirequest/urls.py:41 froide/publicbody/urls.py:30
+msgctxt "URL part"
+msgid "topic"
+msgstr "主题"
+
+#. Translators: part in request filter URL
+#: froide/foirequest/urls.py:45 froide/foirequest/urls.py:47
+#: froide/foirequest/urls.py:49
+msgctxt "URL part"
+msgid "tag"
+msgstr "标签"
+
+#: froide/foirequest/views.py:152
+#: froide/foirequest/templates/foirequest/list_unchecked.html:8
+msgid "FoI Requests"
+msgstr "信息公开申请"
+
+#: froide/foirequest/views.py:376
+msgid "Others can now suggest the Public Bodies for your request."
+msgstr "其他人现在可以对你的信息公开申请提议一个公共机构作为被申请人。"
+
+#: froide/foirequest/views.py:379
+msgid ""
+"Your request will be sent as soon as the newly created Public Body was "
+"confirmed by an administrator."
+msgstr "你的信息公开申请将会在管理员审核通过这个新创建的公共机构（被申请人）之后寄出。"
+
+#: froide/foirequest/views.py:383
+msgid "Your request has been sent."
+msgstr "你的信息公开申请已寄出"
+
+#: froide/foirequest/views.py:384
+msgid "?request-made"
+msgstr "?request-made"
+
+#: froide/foirequest/views.py:389 froide/foirequest/views.py:792
+msgid "Please check your inbox for mail from us to confirm your mail address."
+msgstr "请查收你邮箱中的邮件地址确认链接。"
+
+#: froide/foirequest/views.py:393
+msgid ""
+"There were errors in your form submission. Please review and submit again."
+msgstr "你的信息公开申请表格中有错误。请检查后重新提交。"
+
+#: froide/foirequest/views.py:406 froide/foirequest/views.py:412
+msgid "Missing or invalid input!"
+msgstr "缺失或无效的输入！"
+
+#: froide/foirequest/views.py:416
+msgid "This request doesn't need a Public Body!"
+msgstr "这项申请无需公共机构！"
+
+#: froide/foirequest/views.py:423
+#, python-format
+msgid "Request was sent to: %(name)s."
+msgstr "信息公开申请已发送给：%(name)s。"
+
+#: froide/foirequest/views.py:444
+msgid "Your Public Body suggestion has been added."
+msgstr "你提议的被申请人信息已添加成功"
+
+#: froide/foirequest/views.py:447
+msgid "This Public Body has already been suggested."
+msgstr "你提议的被申请人已经被提议过了。"
+
+#: froide/foirequest/views.py:450
+msgid "You need to specify a Public Body!"
+msgstr "你必须明确一个公共机构！"
+
+#: froide/foirequest/views.py:463
+msgid "Status of request has been updated."
+msgstr "信息公开申请的状态已更新。"
+
+#: froide/foirequest/views.py:466
+msgid "Invalid value for form submission!"
+msgstr "无效的表单数据！"
+
+#: froide/foirequest/views.py:482
+msgid "Your Message has been sent."
+msgstr "你的消息已被寄出。"
+
+#: froide/foirequest/views.py:497
+msgid "Your request cannot be escalated."
+msgstr "Your request cannot be escalated."
+
+#: froide/foirequest/views.py:503
+msgid "Your Escalation Message has been sent."
+msgstr "Your Escalation Message has been sent."
+
+#: froide/foirequest/views.py:531
+msgid "A concrete law has been set for this request."
+msgstr "已为该信息公开申请设定具体的法律依据。"
+
+#: froide/foirequest/views.py:544
+msgid "Tags have been set for this request"
+msgstr "已成功为此信息公开申请添加标签"
+
+#: froide/foirequest/views.py:561
+msgid "The outcome summary has been saved."
+msgstr "信息公开申请结果总结已保存。"
+
+#: froide/foirequest/views.py:607
+msgid "A postal reply was successfully added!"
+msgstr "邮寄回复已成功添加！"
+
+#: froide/foirequest/views.py:610
+msgid "There were errors with your form submission!"
+msgstr "你的申请表中有错误！"
+
+#: froide/foirequest/views.py:634
+msgid ""
+"Your document was added to the message and replaced an existing attachment "
+"with the same name."
+msgstr "你的文档已成功添加至该消息并已替换重名文档。"
+
+#: froide/foirequest/views.py:638
+msgid "Your document was added to the message as a new attachment."
+msgstr "你的文档已经成功添加至该消息。"
+
+#: froide/foirequest/views.py:685
+msgid "Request marked as not a FoI request."
+msgstr "申请被标记为「非信息公开范畴」"
+
+#: froide/foirequest/views.py:699
+msgid "Request marked as checked."
+msgstr "申请被标记为「已检阅」。"
+
+#: froide/foirequest/views.py:716
+msgid "Attachment approved."
+msgstr "附件已被批准。"
+
+#: froide/foirequest/views.py:731
+msgid "Content published."
+msgstr "内容已发表。"
+
+#: froide/foirequest/views.py:770
+msgid "You already made an identical request"
+msgstr "你已提出过相同的信息公开申请。"
+
+#: froide/foirequest/views.py:773
+#, python-format
+msgid ""
+"Please see this request on FragDenStaat.de where you granted access to this "
+"information: %(url)s"
+msgstr "请查阅该信息公开申请的信息：%(url)s"
+
+#: froide/foirequest/views.py:786
+msgid ""
+"You successfully requested this document! Your request is displayed below."
+msgstr "你的信息公开申请成功获取相关文档！详情见下。"
+
+#: froide/foirequest/views.py:848
+#, python-format
+msgid "%s_redacted.pdf"
+msgstr "%s_redacted.pdf"
+
+#: froide/foirequest/views.py:881
+msgid "Deadline has been extended."
+msgstr "截止日期已被延长。"
+
+#: froide/foirequest/templates/admin/foirequest/foimessage/change_form.html:7
+msgid "Resend message"
+msgstr "重新寄出消息"
+
+#: froide/foirequest/templates/foirequest/_request_form.html:15
+msgid "Message"
+msgstr "消息"
+
+#: froide/foirequest/templates/foirequest/_request_form.html:21
+#: froide/foirequest/templates/foirequest/request.html:183
+msgid "Your first name"
+msgstr "你的名"
+
+#: froide/foirequest/templates/foirequest/_request_form.html:22
+msgid "and last name"
+msgstr "你的姓"
+
+#: froide/foirequest/templates/foirequest/_request_form.html:27
+msgid "Your Email Address"
+msgstr "你的邮件地址"
+
+#: froide/foirequest/templates/foirequest/_request_form.html:33
+msgid "Preview Request"
+msgstr "预览"
+
+#: froide/foirequest/templates/foirequest/_request_form.html:37
+msgid "How to make a successful FOI Request"
+msgstr "如何成功提出信息公开申请"
+
+#: froide/foirequest/templates/foirequest/_requests_as_table.html:11
+#: froide/foirequest/templates/foirequest/request.html:50
+#: froide/foirequest/templates/foirequest/snippets/request_item.html:13
+msgid "To:"
+msgstr "至："
+
+#: froide/foirequest/templates/foirequest/_requests_as_table.html:16
+msgid "Status:"
+msgstr "状态："
+
+#: froide/foirequest/templates/foirequest/_requests_as_table.html:20
+#: froide/foirequest/templates/foirequest/show.html:758
+#, python-format
+msgid "One identical request"
+msgid_plural "%(counter)s identical requests"
+msgstr[0] "%(counter)s 重复申请"
+
+#: froide/foirequest/templates/foirequest/_requests_as_table.html:28
+msgid "No requests with this status yet."
+msgstr "没有在这个状态下的申请。"
+
+#: froide/foirequest/templates/foirequest/_requests_as_table.html:30
+msgid "No requests yet."
+msgstr "尚无申请。"
+
+#: froide/foirequest/templates/foirequest/admin_mark_same_as.html:16
+#: froide/foirequest/templates/foirequest/admin_redeliver.html:16
+#: froide/foirequest/templates/foirequest/admin_tag_all.html:16
+msgid "Home"
+msgstr "首页"
+
+#: froide/foirequest/templates/foirequest/admin_mark_same_as.html:19
+msgid "Mark multiple requests identical"
+msgstr "标记多个信息公开申请为「重复」"
+
+#: froide/foirequest/templates/foirequest/admin_mark_same_as.html:26
+msgid "These FoI request..."
+msgstr "这些信息公开申请..."
+
+#: froide/foirequest/templates/foirequest/admin_mark_same_as.html:35
+msgid "...are identical to this one:"
+msgstr "...和这个信息公开申请重复："
+
+#: froide/foirequest/templates/foirequest/admin_mark_same_as.html:39
+msgid "Mark as identical to chosen request"
+msgstr "标记所选信息公开申请为「重复」"
+
+#: froide/foirequest/templates/foirequest/admin_redeliver.html:19
+msgid "Redeliver deferred messages"
+msgstr "重新寄送延迟的消息"
+
+#: froide/foirequest/templates/foirequest/admin_redeliver.html:28
+msgid "Redeliver these messages..."
+msgstr "重新寄送这些消息..."
+
+#: froide/foirequest/templates/foirequest/admin_redeliver.html:38
+msgid "...to this FOI request:"
+msgstr "...至这个信息公开申请："
+
+#: froide/foirequest/templates/foirequest/admin_redeliver.html:42
+msgid "Redeliver messages"
+msgstr "重新寄送消息"
+
+#: froide/foirequest/templates/foirequest/admin_tag_all.html:19
+msgid "Add tags to multiple requests"
+msgstr "向多个信息公开申请添加标签"
+
+#: froide/foirequest/templates/foirequest/admin_tag_all.html:26
+msgid "Add these tags to all selected requests:"
+msgstr "向所有所选信息公开申请添加标签："
+
+#: froide/foirequest/templates/foirequest/admin_tag_all.html:27
+msgid "Enter Tags here"
+msgstr "在次输入标签"
+
+#: froide/foirequest/templates/foirequest/admin_tag_all.html:41
+msgid "Add tags to these requests"
+msgstr "向这些信息公开申请添加标签"
+
+#: froide/foirequest/templates/foirequest/dashboard.html:49
+msgid "Number of Requests"
+msgstr "信息公开申请数量"
+
+#: froide/foirequest/templates/foirequest/dashboard.html:52
+msgid "Number of Users"
+msgstr "用户数量"
+
+#: froide/foirequest/templates/foirequest/list.html:6
+msgid "RSS Feed for these requests"
+msgstr "信息公开申请RSS Feed"
+
+#: froide/foirequest/templates/foirequest/list.html:7
+msgid "Atom feed for these request"
+msgstr "信息公开申请Atom Feed"
+
+#: froide/foirequest/templates/foirequest/list.html:14
+#, python-format
+msgid "%(name)s: all requests"
+msgstr "%(name)s：所有信息公开申请"
+
+#: froide/foirequest/templates/foirequest/list.html:25
+#, python-format
+msgid "Requests with tag \"%(name)s\""
+msgstr "带有\"%(name)s\"标签的信息公开申请"
+
+#: froide/foirequest/templates/foirequest/list.html:28
+#, python-format
+msgid "Requests in topic \"%(name)s\""
+msgstr "\"%(name)s\"主题下的信息公开申请"
+
+#: froide/foirequest/templates/foirequest/list.html:31
+#, python-format
+msgid "Requests to %(name)s"
+msgstr "向%(name)s提出的信息公开申请"
+
+#: froide/foirequest/templates/foirequest/list.html:34
+#, python-format
+msgid "Filtered by requests to Public Bodies in %(name)s."
+msgstr "过滤为：向在%(name)s名下的公共机构提出的信息公开申请。"
+
+#: froide/foirequest/templates/foirequest/list.html:50
+#, python-format
+msgid "%(counter)s request"
+msgid_plural "%(counter)s requests"
+msgstr[0] "%(counter)s项信息公开申请"
+
+#: froide/foirequest/templates/foirequest/list.html:55
+msgid "Show all FoI requests"
+msgstr "显示所有信息公开申请"
+
+#: froide/foirequest/templates/foirequest/list.html:59
+#, python-format
+msgid "%(name)s requests by status"
+msgstr "%(name)s 的信息公开申请依状态分组"
+
+#: froide/foirequest/templates/foirequest/list.html:68
+#, python-format
+msgid "%(name)s requests by category"
+msgstr "%(name)s的信息公开申请依类别分组"
+
+#: froide/foirequest/templates/foirequest/list.html:79
+msgid "By jurisdiction"
+msgstr "依管辖权分组"
+
+#: froide/foirequest/templates/foirequest/list.html:89
+msgid "By status"
+msgstr "依状态分组"
+
+#: froide/foirequest/templates/foirequest/list.html:98
+msgid "By category"
+msgstr "依类别分组"
+
+#: froide/foirequest/templates/foirequest/list.html:109
+msgid "Feeds for these requests"
+msgstr "信息公开申请Feeds"
+
+#: froide/foirequest/templates/foirequest/list.html:113
+#: froide/foirequest/templates/foirequest/show.html:450
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+#: froide/foirequest/templates/foirequest/list.html:119
+#: froide/foirequest/templates/foirequest/show.html:456
+msgid "Atom Feed"
+msgstr "Atom Feed"
+
+#: froide/foirequest/templates/foirequest/list.html:124
+msgid "Show all Non-FoI requests"
+msgstr "显示所有「非信息公开范畴」的申请"
+
+#: froide/foirequest/templates/foirequest/list_unchecked.html:13
+#: froide/foirequest/templates/foirequest/show.html:495
+msgid "View on Admin site"
+msgstr "在管理界面浏览"
+
+#: froide/foirequest/templates/foirequest/list_unchecked.html:16
+#: froide/foirequest/templates/foirequest/show.html:511
+msgid "Mark as checked"
+msgstr "标记为「已检阅」"
+
+#: froide/foirequest/templates/foirequest/list_unchecked.html:26
+msgid "View on Site"
+msgstr "在站点浏览"
+
+#: froide/foirequest/templates/foirequest/list_unchecked.html:27
+msgid "View on Admin"
+msgstr "在管理界面浏览"
+
+#: froide/foirequest/templates/foirequest/list_unchecked.html:29
+#: froide/foirequest/templates/foirequest/snippets/attachment_item.html:8
+msgid "Preview in Browser"
+msgstr "在浏览器预览"
+
+#: froide/foirequest/templates/foirequest/list_unchecked.html:32
+msgid "No file present!"
+msgstr "没有相关文件！"
+
+#: froide/foirequest/templates/foirequest/list_unchecked.html:38
+msgid "May not contain private information"
+msgstr "可能不包含私人信息"
+
+#: froide/foirequest/templates/foirequest/list_unchecked.html:40
+#, python-format
+msgid "May only contain name %(name)s."
+msgstr "可能只包含姓名：%(name)s。"
+
+#: froide/foirequest/templates/foirequest/list_unchecked.html:42
+#: froide/foirequest/templates/foirequest/snippets/attachment.html:31
+msgid "Publish this attachment"
+msgstr "发表这个附件"
+
+#: froide/foirequest/templates/foirequest/list_unchecked.html:46
+msgid "No request present!"
+msgstr "没有相关信息公开申请！"
+
+#: froide/foirequest/templates/foirequest/redact.html:4
+#, python-format
+msgid "Redacting attachment %(name)s"
+msgstr "特殊处理了过的附件%(name)s"
+
+#: froide/foirequest/templates/foirequest/redact.html:8
+#, python-format
+msgid "Redact \"%(name)s\""
+msgstr "特殊处理 \"%(name)s\""
+
+#: froide/foirequest/templates/foirequest/redact.html:12
+msgid "How to redact"
+msgstr "如何特殊处理文档"
+
+#: froide/foirequest/templates/foirequest/redact.html:13
+#, python-format
+msgid ""
+"Go to each page of the PDF and locate the parts that need to be blacked out."
+" Draw a rectangle over the area by clicking the mouse and dragging it. Be "
+"sure to also black out the email address of %(name)s if it is visible."
+msgstr "请检视PDF的每一页，找到其中需要隐去的信息。然后用鼠标在该信息处拖画出一个方框将内容遮盖。请将%(name)s的邮件地址一并遮盖。"
+
+#: froide/foirequest/templates/foirequest/redact.html:14
+msgid ""
+"The original version of the document will still be available to you (but not"
+" to the public). If the document does not load correctly, cancel and inform "
+"a site moderator."
+msgstr "你仍然可以访问原始的文档（但公众不可访问）。如果文档显示不正确，请通知管理员。"
+
+#: froide/foirequest/templates/foirequest/redact.html:15
+msgid ""
+"Note: in order to redact documents an up-to-date version of a modern browser"
+" is required. Using Internet Explorer will likely not work."
+msgstr "注意：为了能够在线对文档进行特殊处理，你需要使用Chrome、Firefox等更为先进的浏览器。Internet Explorer可能无法正常工作。"
+
+#: froide/foirequest/templates/foirequest/redact.html:20
+msgid "What you need to redact"
+msgstr "你需要特殊处理哪些信息"
+
+#: froide/foirequest/templates/foirequest/redact.html:26
+msgid "Please remove all your personally identifying information."
+msgstr "请将能识别你的所有个人信息移除。"
+
+#: froide/foirequest/templates/foirequest/redact.html:28
+msgid ""
+"Please remove all your personally identifying information except your name."
+msgstr "请将能识别你的所有个人信息移除（除了你的姓名）。"
+
+#: froide/foirequest/templates/foirequest/redact.html:32
+#, python-format
+msgid "Please remove all personally identifying information of %(name)s."
+msgstr "请将能识别%(name)s的所有个人信息移除。"
+
+#: froide/foirequest/templates/foirequest/redact.html:34
+#, python-format
+msgid ""
+"Please remove all personally identifying information of %(name)s except the "
+"name itself."
+msgstr "请将能识别%(name)s的所有个人信息移除（除了姓名）。"
+
+#: froide/foirequest/templates/foirequest/redact.html:38
+msgid "Please remove email addresses of this site."
+msgstr "请将此站点的邮件地址移除。"
+
+#: froide/foirequest/templates/foirequest/redact.html:40
+msgid "Please remove hand-written signatures."
+msgstr "请将签名移除。"
+
+#: froide/foirequest/templates/foirequest/redact.html:51
+msgid "Previous Page"
+msgstr "上一页"
+
+#: froide/foirequest/templates/foirequest/redact.html:52
+msgid "Next Page"
+msgstr "下一页"
+
+#: froide/foirequest/templates/foirequest/redact.html:56
+msgid "Page"
+msgstr "页"
+
+#: froide/foirequest/templates/foirequest/redact.html:58
+msgid "of"
+msgstr "of"
+
+#: froide/foirequest/templates/foirequest/redact.html:64
+msgid "Save and publish blacked out version"
+msgstr "保存并发表特殊处理后的版本"
+
+#: froide/foirequest/templates/foirequest/redact.html:68
+msgid "Reset"
+msgstr "重置"
+
+#: froide/foirequest/templates/foirequest/redact.html:69
+msgid "Cancel"
+msgstr "取消"
+
+#: froide/foirequest/templates/foirequest/redact.html:76
+msgid "Redaction process started, please wait..."
+msgstr "特殊处理开始，请耐心等待..."
+
+#: froide/foirequest/templates/foirequest/redact.html:77
+msgid "Loading PDF..."
+msgstr "加载PDF中..."
+
+#: froide/foirequest/templates/foirequest/request.html:14
+#: froide/foirequest/templates/foirequest/request.html:128
+msgid "Visit the website of this Public Body"
+msgstr "访问该公众机构的网站"
+
+#: froide/foirequest/templates/foirequest/request.html:16
+msgid "/Dear Sir or Madam/"
+msgstr "/您好/"
+
+#: froide/foirequest/templates/foirequest/request.html:17
+msgid "/Kind Regards/"
+msgstr "/祝好/"
+
+#: froide/foirequest/templates/foirequest/request.html:18
+msgid "Search the internet for information"
+msgstr "在网络上搜索相关信息"
+
+#: froide/foirequest/templates/foirequest/request.html:19
+msgid "Search Public Body Website"
+msgstr "在公共机构网站上搜索"
+
+#: froide/foirequest/templates/foirequest/request.html:21
+msgid ""
+"We found an email address in your text: {{ email }}. Do not sent personal "
+"data to the Public Body."
+msgstr "我们在你的申请中发现了一个邮件地址: {{ email }}。请不要向公共机构发送你的邮件地址。"
+
+#: froide/foirequest/templates/foirequest/request.html:22
+msgid ""
+"We found {{ find }} in your text, but there is already a greeting at the top"
+" of the letter!"
+msgstr "我们在你的申请中发现了{{ find }} ，但信件开头已经有问候语了！"
+
+#: froide/foirequest/templates/foirequest/request.html:23
+msgid ""
+"We found {{ find }} in your text, but there is already a closing at the "
+"bottom of the letter!"
+msgstr "我们在你的申请中发现了{{ find }}，但信件结尾已经有结尾致辞了！"
+
+#: froide/foirequest/templates/foirequest/request.html:24
+msgid "Don't leave the body of your message empty"
+msgstr "请不要将申请内容留白"
+
+#: froide/foirequest/templates/foirequest/request.html:25
+msgid "Don't leave the subject of your message empty"
+msgstr "请不要将申请标题留白"
+
+#: froide/foirequest/templates/foirequest/request.html:37
+msgid "Write a request"
+msgstr "填写信息公开申请表"
+
+#: froide/foirequest/templates/foirequest/request.html:45
+msgid "Step 1 - Find the Public Body"
+msgstr "第一步 - 确定被申请人"
+
+#: froide/foirequest/templates/foirequest/request.html:74
+msgid ""
+"Don't select a public body for now. Let others help to find the right Public"
+" Body later."
+msgstr "你不用现在就确定被申请人。你可以让其他人帮你提议合适的被申请人。"
+
+#: froide/foirequest/templates/foirequest/request.html:80
+msgid "Create a new public body on the fly."
+msgstr "创建新的公共机构。"
+
+#: froide/foirequest/templates/foirequest/request.html:87
+msgid "Please select one of the above options to proceed."
+msgstr "请在上面选择一个选项以继续。"
+
+#: froide/foirequest/templates/foirequest/request.html:93
+msgid "Step 2 - Choose the type of request"
+msgstr "第二步 - 请选择申请类型"
+
+#: froide/foirequest/templates/foirequest/request.html:95
+msgid "What kind of information do you want?"
+msgstr "你希望获得哪一类信息？"
+
+#: froide/foirequest/templates/foirequest/request.html:99
+msgid "a matter that involves you personally"
+msgstr "一件和你私人相关的事务"
+
+#: froide/foirequest/templates/foirequest/request.html:101
+msgid "Questions like \"Where do I get X?\" or \"What do I have to do if X?\""
+msgstr "问题比如 ”我可以从哪里得到X？”或者“如果X发生，那么我该怎么做？”"
+
+#: froide/foirequest/templates/foirequest/request.html:106
+msgid "a question about a political opinion"
+msgstr "一个关于政治观点的问题"
+
+#: froide/foirequest/templates/foirequest/request.html:108
+msgid "Questions like \"Why don't you do X?\" or \"How can it be that X?\""
+msgstr "问题比如”为什么你不做X？“或者”问什么X事会发展至此？“"
+
+#: froide/foirequest/templates/foirequest/request.html:113
+msgid "a matter of general interest (Freedom of Information request)"
+msgstr "公众利益相关的问题（即信息公开范畴）"
+
+#: froide/foirequest/templates/foirequest/request.html:115
+msgid "Questions like \"How much did X cost?\" or \"Please give me a list of X?\""
+msgstr "问题比如”X花费了多少资金？“或者”请给我X相关的文件“"
+
+#: froide/foirequest/templates/foirequest/request.html:120
+msgid "Continue"
+msgstr "继续"
+
+#: froide/foirequest/templates/foirequest/request.html:122
+msgid "Please select one of the above options!"
+msgstr "请在上方选择一个选项！"
+
+#: froide/foirequest/templates/foirequest/request.html:125
+msgid "A request about a matter involving you personally"
+msgstr "一件和你私人相关的申请"
+
+#: froide/foirequest/templates/foirequest/request.html:126
+msgid ""
+"If you want to ask a question that relates to you personally, like how you "
+"can achieve something or who you have to contact, you need publicly "
+"available information from that public body:"
+msgstr "如果你要问的问题只和你私人相关，比如你要怎样获得成功或你需要联络谁做什么，你可以访问相关的公共机构网站获取公开在网站的信息做为参考："
+
+#: froide/foirequest/templates/foirequest/request.html:128
+msgid "Click here to go to 115.de - the Public Body Service Hotline"
+msgstr "Click here to go to 115.de - the Public Body Service Hotline"
+
+#: froide/foirequest/templates/foirequest/request.html:129
+msgid ""
+"Please note that you shouldn't use this site to request personal "
+"information."
+msgstr "请确保你不用此网站申请私人相关信息。"
+
+#: froide/foirequest/templates/foirequest/request.html:132
+msgid "A request about an opinion"
+msgstr "一个关于观点的信息公开申请"
+
+#: froide/foirequest/templates/foirequest/request.html:133
+msgid ""
+"In order to ask about a political state, you need to talk to people not "
+"public bodies. Please ask your Member of Parliament about the topic you are "
+"interested in:"
+msgstr "为了清楚了解政治立场，你应该找相关政治人物而非公共机构。请联系你所在地的人大代表详谈。"
+
+#: froide/foirequest/templates/foirequest/request.html:134
+msgid "Click here to go to abgeordnetenwatch.de"
+msgstr "Click here to go to abgeordnetenwatch.de"
+
+#: froide/foirequest/templates/foirequest/request.html:140
+msgid "Step 3 - Write the Request"
+msgstr "第三步 - 填写申请表"
+
+#: froide/foirequest/templates/foirequest/request.html:145
+msgid ""
+"Please have a look if the information you are looking for is already "
+"available online."
+msgstr "在提出申请钱请先搜索是否相关信息已经公开了。"
+
+#: froide/foirequest/templates/foirequest/request.html:148
+#, python-format
+msgid "Search this site for %(topic)s"
+msgstr "在站点搜索主题：%(topic)s"
+
+#: froide/foirequest/templates/foirequest/request.html:151
+msgid "Explore other requests made to this Public Body"
+msgstr "查看向该公共机构提出的其他信息公开申请"
+
+#: froide/foirequest/templates/foirequest/request.html:154
+msgid "Try a Google Search for your topic"
+msgstr "尝试在Google搜索你的主题"
+
+#: froide/foirequest/templates/foirequest/request.html:157
+msgid ""
+"If you could not find the information you are looking for, write a request "
+"below."
+msgstr "如果你找不到你想要的信息，请在下方填表申请。"
+
+#: froide/foirequest/templates/foirequest/request.html:160
+msgid "Request Subject"
+msgstr "申请标题"
+
+#: froide/foirequest/templates/foirequest/request.html:170
+msgid "Your Request:"
+msgstr "你的申请："
+
+#: froide/foirequest/templates/foirequest/request.html:175
+#: froide/foirequest/templates/foirequest/show.html:685
+msgid "[... Show complete request text]"
+msgstr "[... 显示完整申请文本]"
+
+#: froide/foirequest/templates/foirequest/request.html:176
+#: froide/foirequest/templates/foirequest/show.html:686
+msgid "Kind Regards,"
+msgstr "祝好，"
+
+#: froide/foirequest/templates/foirequest/request.html:183
+msgid "and"
+msgstr "和"
+
+#: froide/foirequest/templates/foirequest/request.html:184
+msgid "last name"
+msgstr "姓"
+
+#: froide/foirequest/templates/foirequest/request.html:203
+msgid "Legal Explanation:"
+msgstr "司法解释："
+
+#: froide/foirequest/templates/foirequest/request.html:206
+msgid "Important Notes:"
+msgstr "重要注意事项："
+
+#: froide/foirequest/templates/foirequest/request.html:208
+msgid "Write your request in <strong>simple, precise language</strong>."
+msgstr "用<strong>简单，直白的语言</strong>填写你的申请"
+
+#: froide/foirequest/templates/foirequest/request.html:209
+msgid "Ask for <strong>specific</strong> documents or information."
+msgstr "<strong>明确</strong>你要求的文件或信息"
+
+#: froide/foirequest/templates/foirequest/request.html:210
+msgid "Keep it <strong>focused and concise</strong>."
+msgstr "确保内容<strong>焦点明确，含义清晰</strong>。"
+
+#: froide/foirequest/templates/foirequest/request.html:211
+msgid ""
+"This site is <strong>public</strong>. Everything you type and any response "
+"will be published."
+msgstr "这个站点是<strong>公开的</strong>。任何你输入的内容和回复都会被公开。"
+
+#: froide/foirequest/templates/foirequest/request.html:212
+msgid "Do <strong>not include</strong> personal information in your request."
+msgstr "请<strong>不要</strong>包含你自己的个人信息。"
+
+#: froide/foirequest/templates/foirequest/request.html:213
+msgid "Do <strong>not ask</strong> for personal information."
+msgstr "请<strong>不要</strong>申请公开个人信息"
+
+#: froide/foirequest/templates/foirequest/request.html:221
+#: froide/foirequest/templates/foirequest/show.html:400
+msgid "Your Post Address:"
+msgstr "你的邮寄地址："
+
+#: froide/foirequest/templates/foirequest/request.html:222
+#: froide/foirequest/templates/foirequest/show.html:401
+msgid "Your Email Address:"
+msgstr "你的邮件地址："
+
+#: froide/foirequest/templates/foirequest/request.html:229
+msgid "Your email address"
+msgstr "你的邮件地址"
+
+#: froide/foirequest/templates/foirequest/request.html:233
+msgid "Your mailing address"
+msgstr "你的邮寄地址"
+
+#: froide/foirequest/templates/foirequest/request.html:258
+msgid "This request is public."
+msgstr "这项申请是公开的。"
+
+#: froide/foirequest/templates/foirequest/request.html:261
+msgid ""
+"If you don't want your request to be public right now, uncheck this. You can"
+" always decide to make it public later."
+msgstr "如果你不希望现在公开你的信息公开申请，那么请不要勾选此项，你可以稍后再公开你的申请。"
+
+#: froide/foirequest/templates/foirequest/request.html:268
+msgid "Review and Submit"
+msgstr "检查并提交"
+
+#: froide/foirequest/templates/foirequest/request.html:272
+msgid "Step 4 - Review your Request and Submit"
+msgstr "第四步 - 检查你的申请并提交"
+
+#: froide/foirequest/templates/foirequest/request.html:276
+msgid "Review your Request and Submit"
+msgstr "检查申请并提交"
+
+#: froide/foirequest/templates/foirequest/request.html:286
+#: froide/foirequest/templates/foirequest/show.html:583
+msgid "From"
+msgstr "来自"
+
+#: froide/foirequest/templates/foirequest/request.html:299
+msgid "Please use proper spelling."
+msgstr "请检查错别字。"
+
+#: froide/foirequest/templates/foirequest/request.html:300
+msgid "Please stay polite."
+msgstr "请不要使用不礼貌的词汇。"
+
+#: froide/foirequest/templates/foirequest/request.html:304
+msgid "edit your request again"
+msgstr "再次编辑你的申请"
+
+#: froide/foirequest/templates/foirequest/request.html:307
+msgid "Submit Request"
+msgstr "提交申请"
+
+#: froide/foirequest/templates/foirequest/request.html:315
+msgid "Similar Requests"
+msgstr "类似申请"
+
+#: froide/foirequest/templates/foirequest/request.html:317
+msgid "None found"
+msgstr "没有找到"
+
+#: froide/foirequest/templates/foirequest/show.html:19
+#, python-format
+msgid "RSS Feed for request '%(title)s'"
+msgstr "信息公开申请'%(title)s'的RSS Feed"
+
+#: froide/foirequest/templates/foirequest/show.html:20
+#, python-format
+msgid "Atom feed for request '%(title)s'"
+msgstr "信息公开申请'%(title)s'的Atom Feed"
+
+#: froide/foirequest/templates/foirequest/show.html:31
+msgid "This request is <strong>not public</strong> at the moment."
+msgstr "这项信息公开申请目前<strong>非公开</strong>"
+
+#: froide/foirequest/templates/foirequest/show.html:33
+msgid "Make this request public now"
+msgstr "将此信息公开申请公开"
+
+#: froide/foirequest/templates/foirequest/show.html:40
+#, python-format
+msgid ""
+"This request received a reply and is in an unknown state. If you created "
+"this request, please <a href=\"%(login_url)s\">log in</a> and set a new "
+"status."
+msgstr "该信息公开申请收到了新回复但状态却不明。如果你是申请人，请<a href=\"%(login_url)s\">登入</a>后为它设置新状态。"
+
+#: froide/foirequest/templates/foirequest/show.html:44
+#, python-format
+msgid ""
+"<b>Hey %(name)s</b>, please read the latest response and <a href=\"#set-"
+"status\" data-tabgo=\"tab\">set a new status for this request</a>!"
+msgstr "<b>你好， %(name)s</b>, 请阅读最新的回复并为你的申请 <a href=\"#set-status\" data-tabgo=\"tab\">设置新状态</a>!"
+
+#: froide/foirequest/templates/foirequest/show.html:49
+#, python-format
+msgid ""
+"<b>Hey %(name)s</b>, your request is <b>overdue</b>!<br/>\n"
+"    Please act now:"
+msgstr "<b>你好，%(name)s</b>, 你的申请已经 <b>超期</b>!<br/>⏎\n请采取下列行动："
+
+#: froide/foirequest/templates/foirequest/show.html:53
+msgid ""
+"Have you received a reply by <b>postal mail</b>? &rarr; <a data-"
+"tabgo=\"tab\" href=\"#add-postal-reply\">Add it to the records below!</a>"
+msgstr "你是否从<b>邮递</b>途径收到回复 ? &rarr; <a data-tabgo=\"tab\" href=\"#add-postal-reply\">请将它加入记录!</a>"
+
+#: froide/foirequest/templates/foirequest/show.html:56
+msgid ""
+"Have you not gotten any reply? &rarr; <a data-tabgo=\"tab\" href=\"#write-"
+"message\">Write a reminder to the public body!</a>"
+msgstr "你是否未收到任何回复？&rarr; <a data-tabgo=\"tab\" href=\"#write-message\">向被申请人发送一个提醒消息!</a>"
+
+#: froide/foirequest/templates/foirequest/show.html:64
+msgid "You request has been refused."
+msgstr "你的信息公开申请已被拒绝。"
+
+#: froide/foirequest/templates/foirequest/show.html:65
+msgid "Consider sending a letter to a mediator"
+msgstr "考虑向仲裁发送信件"
+
+#: froide/foirequest/templates/foirequest/show.html:71
+msgid ""
+"This request is not an FoI request. This site is only for requesting "
+"specific information from public bodies."
+msgstr "这项申请并非在信息公开范畴内。本站点仅支持向公共机构提出信息公开范畴内的申请。"
+
+#: froide/foirequest/templates/foirequest/show.html:84
+msgid "Request"
+msgstr "信息公开申请"
+
+#: froide/foirequest/templates/foirequest/show.html:90
+#: froide/foirequest/templates/foirequest/show.html:147
+msgid "Set status"
+msgstr "设置状态"
+
+#: froide/foirequest/templates/foirequest/show.html:97
+msgid "Choose Public Body"
+msgstr "选择被申请人（公共机构）"
+
+#: froide/foirequest/templates/foirequest/show.html:104
+msgid "Got Mail?"
+msgstr "收到信件？"
+
+#: froide/foirequest/templates/foirequest/show.html:109
+msgid "Send a message"
+msgstr "发送消息"
+
+#: froide/foirequest/templates/foirequest/show.html:116
+msgid "Mediation"
+msgstr "仲裁"
+
+#: froide/foirequest/templates/foirequest/show.html:123
+msgid "More..."
+msgstr "更多..."
+
+#: froide/foirequest/templates/foirequest/show.html:134
+#, python-format
+msgid "Please <a href=\"%(url)s\">read the reply</a> and choose a new status "
+msgstr "请<a href=\"%(url)s\">阅读回复</a>并设置新状态"
+
+#: froide/foirequest/templates/foirequest/show.html:136
+msgid "Set a new status"
+msgstr "设置新状态"
+
+#: froide/foirequest/templates/foirequest/show.html:156
+msgid ""
+"As the author of this request, please choose a public body from one of the "
+"suggestions:"
+msgstr "作为申请人，请从以下被提议的公共机构中选择一个合适的作为被申请人："
+
+#: froide/foirequest/templates/foirequest/show.html:160
+msgid "Send this request to the selected Public Body"
+msgstr "将信息公开申请寄送给被申请人"
+
+#: froide/foirequest/templates/foirequest/show.html:172
+#, python-format
+msgid ""
+"You can file a complaint to the %(entity)s if you think your request was not"
+" properly handled."
+msgstr "如果你觉得你的信息公开申请处理不恰当，你可以向%(entity)s提出申诉。"
+
+#: froide/foirequest/templates/foirequest/show.html:181
+msgid ""
+"Your request is currently not public, but will be made accessible to the "
+"mediator via the special link in the message."
+msgstr "你的信息公开申请目前非公开，但你可以将消息中的特殊链接发给仲裁让其访问。"
+
+#: froide/foirequest/templates/foirequest/show.html:183
+#: froide/foirequest/templates/foirequest/show.html:222
+msgid "Send Message"
+msgstr "寄送消息"
+
+#: froide/foirequest/templates/foirequest/show.html:200
+msgid "Add Postal Reply"
+msgstr "添加邮寄回复"
+
+#: froide/foirequest/templates/foirequest/show.html:201
+msgid "You can attach more documents to this reply later."
+msgstr "你可以稍后向该回复添加更多附件。"
+
+#: froide/foirequest/templates/foirequest/show.html:211
+msgid ""
+"Your request is <b>overdue</b>. You should send a reminder to the Public "
+"Body!"
+msgstr "你的信息公开申请已经<b>超期</b>。你可以向被申请人发送提醒消息！"
+
+#: froide/foirequest/templates/foirequest/show.html:213
+msgid "You can send another message to this Public Body if you want to."
+msgstr "如果你想，你可以向被申请人再发送一条消息。"
+
+#: froide/foirequest/templates/foirequest/show.html:232
+msgid "Set Law"
+msgstr "设定法律"
+
+#: froide/foirequest/templates/foirequest/show.html:235
+msgid ""
+"This request was made under multiple information laws. If it is apparent "
+"from the reply under which law the request was answered, please choose this "
+"law below. If it is not obvious, leave it as it is."
+msgstr "这项信息公开申请目前有多想法律条文支持。如果回复中明确说明相应法律依据，那么请选择具体法律。否则，请保持原状。"
+
+#: froide/foirequest/templates/foirequest/show.html:237
+msgid "Set Concrete Law"
+msgstr "设置具体法律"
+
+#: froide/foirequest/templates/foirequest/show.html:242
+msgid "Resolution Summary"
+msgstr "决议总结"
+
+#: froide/foirequest/templates/foirequest/show.html:245
+msgid ""
+"Have you received the information you need? What have you learned from it?"
+msgstr "你有收到你期望的信息吗？你从中了解到了什么？"
+
+#: froide/foirequest/templates/foirequest/show.html:247
+msgid "Save Summary"
+msgstr "保存总结"
+
+#: froide/foirequest/templates/foirequest/show.html:260
+msgid "You can suggest a public body for this request."
+msgstr "你可以为此信息公开申请提议一个被申请人。"
+
+#: froide/foirequest/templates/foirequest/show.html:263
+msgid "The following public bodies have already been suggested:"
+msgstr "以下公共机构已经被提名为被申请人："
+
+#: froide/foirequest/templates/foirequest/show.html:269
+msgid "Details"
+msgstr "细节"
+
+#: froide/foirequest/templates/foirequest/show.html:272
+msgid "Reason given by the user:"
+msgstr "用户给出的原因："
+
+#: froide/foirequest/templates/foirequest/show.html:276
+msgid "There are no suggestions yet"
+msgstr "尚未有提名"
+
+#: froide/foirequest/templates/foirequest/show.html:286
+msgid "Suggest this Public Body"
+msgstr "提名这个公共机构作为被申请人"
+
+#: froide/foirequest/templates/foirequest/show.html:293
+msgid "Request to:"
+msgstr "申请递送至："
+
+#: froide/foirequest/templates/foirequest/show.html:303
+msgid "Laws used:"
+msgstr "使用的法律："
+
+#: froide/foirequest/templates/foirequest/show.html:314
+#: froide/foirequest/templates/foirequest/show.html:320
+msgid "Law used:"
+msgstr "使用的法律："
+
+#: froide/foirequest/templates/foirequest/show.html:323
+msgid "Status of this request:"
+msgstr "此项信息公开申请的状态："
+
+#: froide/foirequest/templates/foirequest/show.html:326
+msgid "Due date:"
+msgstr "到期时间："
+
+#: froide/foirequest/templates/foirequest/show.html:329
+#, python-format
+msgid "%(due)s ago"
+msgstr "%(due)s 以前"
+
+#: froide/foirequest/templates/foirequest/show.html:333
+#, python-format
+msgid "in %(due)s"
+msgstr "在%(due)s"
+
+#. Translators: URL part
+#: froide/foirequest/templates/foirequest/show.html:336
+msgid "deadline"
+msgstr "截止日期"
+
+#: froide/foirequest/templates/foirequest/show.html:337
+msgid "How is this calculated?"
+msgstr "这个是如何计算的？"
+
+#: froide/foirequest/templates/foirequest/show.html:346
+msgid "Cost of information:"
+msgstr "此信息的花费："
+
+#: froide/foirequest/templates/foirequest/show.html:350
+msgid "Summary of Request"
+msgstr "信息公开申请的总结"
+
+#: froide/foirequest/templates/foirequest/show.html:354
+msgid "Summary of Resolution"
+msgstr "决议总结"
+
+#: froide/foirequest/templates/foirequest/show.html:362
+msgid ""
+"This request was not sent yet, because it still needs a Public Body as a "
+"recipient."
+msgstr "这项申请在明确被申请人之前不会被寄出。"
+
+#: froide/foirequest/templates/foirequest/show.html:366
+msgid ""
+"This request is not public and will not receive suggestions for public "
+"bodies from users!"
+msgstr "这项申请并非公开，因此不会收到关于被申请人的提名。"
+
+#: froide/foirequest/templates/foirequest/show.html:374
+msgid ""
+"The public body of this request has been created by the user and still needs"
+" to be confirmed."
+msgstr "该项申请的内容已由用户创建但仍需确认。"
+
+#: froide/foirequest/templates/foirequest/show.html:385
+msgid ""
+"This request received documents that we are not allowed to publish. However,"
+" every person can get individual access to these documents by requesting "
+"them below."
+msgstr "我们收到了对该项申请的回复但不被允许公开发表。然而，所有人都能通过填写下表来单独访问该回复。"
+
+#: froide/foirequest/templates/foirequest/show.html:388
+#, python-format
+msgid ""
+"You stated that you are not allowed to publish the received documents. If "
+"this was a mistake, please contact %(email)s."
+msgstr "你注明你收到的回复不被允许公开发表。如果这是个错误，请联系%(email)s。"
+
+#: froide/foirequest/templates/foirequest/show.html:391
+msgid "You made the original request."
+msgstr "你提出了原始的信息公开申请。"
+
+#: froide/foirequest/templates/foirequest/show.html:395
+msgid "You made an identical request."
+msgstr "你提出了一个重复的信息公开申请。"
+
+#: froide/foirequest/templates/foirequest/show.html:399
+#: froide/foirequest/templates/foirequest/show.html:410
+msgid ""
+"Make an identical request in your name to get access to the information."
+msgstr "你可以提出一个重复的信息公开申请来访问现有信息。"
+
+#: froide/foirequest/templates/foirequest/show.html:402
+#: froide/foirequest/templates/foirequest/show.html:415
+msgid "Make identical request in your name"
+msgstr "你提出了一个重复申请"
+
+#: froide/foirequest/templates/foirequest/show.html:418
+#, python-format
+msgid "So far one person also requested this document."
+msgid_plural ""
+"So far <strong>%(counter)s people</strong> requested this document."
+msgstr[0] "至今，共有<strong>%(counter)s人</strong> 申请访问该文件。"
+
+#: froide/foirequest/templates/foirequest/show.html:425
+msgid "Followers"
+msgstr "关注者"
+
+#: froide/foirequest/templates/foirequest/show.html:428
+#, python-format
+msgid "%(counter)s follower"
+msgid_plural "%(counter)s followers"
+msgstr[0] "%(counter)s关注者"
+
+#: froide/foirequest/templates/foirequest/show.html:440
+msgid "Share this request"
+msgstr "分享这项信息公开申请"
+
+#: froide/foirequest/templates/foirequest/show.html:446
+msgid "Feeds"
+msgstr "Feeds"
+
+#: froide/foirequest/templates/foirequest/show.html:460
+msgid "Short URL"
+msgstr "短地址"
+
+#: froide/foirequest/templates/foirequest/show.html:467
+msgid "Secret Short URL"
+msgstr "私密短地址"
+
+#: froide/foirequest/templates/foirequest/show.html:470
+msgid "This URL gives read access to others."
+msgstr "这个链接给访问者提供「可读」权限。"
+
+#: froide/foirequest/templates/foirequest/show.html:493
+msgid "Staff Actions"
+msgstr "Staff Actions"
+
+#: froide/foirequest/templates/foirequest/show.html:506
+#: froide/foirequest/templates/foirequest/show.html:514
+msgid "Marked as checked"
+msgstr "标记为「已检阅」"
+
+#: froide/foirequest/templates/foirequest/show.html:519
+#: froide/foirequest/templates/foirequest/show.html:527
+msgid "Marked as NOT FoI"
+msgstr "标记为「非信息公开范畴」"
+
+#: froide/foirequest/templates/foirequest/show.html:524
+msgid "Mark as NOT FoI"
+msgstr "标记为「非信息公开范畴」"
+
+#: froide/foirequest/templates/foirequest/show.html:533
+msgid "Extend deadline by months"
+msgstr "延长截至日期至数月后"
+
+#: froide/foirequest/templates/foirequest/show.html:535
+msgid "Extend Deadline"
+msgstr "延长截止日期"
+
+#: froide/foirequest/templates/foirequest/show.html:575
+msgid "Messages in this request"
+msgstr "该项信息公开申请中的消息"
+
+#: froide/foirequest/templates/foirequest/show.html:587
+msgid "change"
+msgstr "改变"
+
+#: froide/foirequest/templates/foirequest/show.html:592
+msgid "Set the Public Body that sent this message:"
+msgstr "设定寄送该消息的公共机构："
+
+#: froide/foirequest/templates/foirequest/show.html:594
+msgid "Set Sending Public Body"
+msgstr "设定作为寄送者的公共机构"
+
+#: froide/foirequest/templates/foirequest/show.html:614
+msgid "Date"
+msgstr "日期"
+
+#: froide/foirequest/templates/foirequest/show.html:639
+msgid "Admin"
+msgstr "管理"
+
+#: froide/foirequest/templates/foirequest/show.html:641
+msgid "View message in admin"
+msgstr "在管理界面浏览消息"
+
+#: froide/foirequest/templates/foirequest/show.html:659
+msgid "Upload Attachments"
+msgstr "上传附件"
+
+#: froide/foirequest/templates/foirequest/show.html:665
+msgid "Upload Document"
+msgstr "上传文档"
+
+#: froide/foirequest/templates/foirequest/show.html:677
+msgid "Please click here to set a new status for this request now"
+msgstr "请点击这里来设定信息公开申请的新状态"
+
+#: froide/foirequest/templates/foirequest/show.html:693
+msgid ""
+"This message may contain information that you may wish to not publish until "
+"after the whole request finished. The following message is therefore "
+"currently only visible to you."
+msgstr "这个消息或许包含了你不希望在整个信息公开申请决议前公开发表的内容。因此以下内容目前仅对你可见。"
+
+#: froide/foirequest/templates/foirequest/show.html:696
+msgid "I want to publish this message"
+msgstr "我想公开发表该消息"
+
+#: froide/foirequest/templates/foirequest/show.html:702
+msgid "This message is not yet public."
+msgstr "该消息尚未公开。"
+
+#: froide/foirequest/templates/foirequest/show.html:714
+msgid "You can write a reply by clicking here"
+msgstr "点击此来写下你的回复。"
+
+#: froide/foirequest/templates/foirequest/show.html:735
+msgid "Write a comment"
+msgstr "写评论"
+
+#: froide/foirequest/templates/foirequest/show.html:740
+msgid "Please login to write a comment."
+msgstr "请登录后再写评论。"
+
+#: froide/foirequest/templates/foirequest/show.html:750
+msgid "No messages yet"
+msgstr "尚无消息"
+
+#: froide/foirequest/templates/foirequest/show.html:773
+msgid "This request is identical to:"
+msgstr "这项信息公开申请是以下申请的重复申请："
+
+#: froide/foirequest/templates/foirequest/emails/became_asleep.txt:1
+#, python-format
+msgid ""
+"Hello %(name)s,\n"
+"\n"
+"Your request \"%(title)s\" is not marked as resolved and has not seen any activity in the last 6 months. Therefore your request has been marked asleep.\n"
+"\n"
+"If you have received a response and your request is resolved, please add the response and mark the request resolved here:\n"
+"%(url)s\n"
+"\n"
+"Cheers,\n"
+"%(site_name)s"
+msgstr "你好， %(name)s⏎\n⏎\n你的信息公开申请\"%(title)s\"还未决议但已经6个月没有任何动态了。因此你的申请进入「冬眠」状态。⏎\n⏎\n如果你以后收到回复并且申请已决议，那么可点击以下链接来请添加回复信息，并设定申请状态为「已决议」：⏎\n%(url)s⏎\n⏎\n谢谢,⏎\n%(site_name)s"
+
+#: froide/foirequest/templates/foirequest/emails/became_overdue.txt:1
+#, python-format
+msgid ""
+"Hello %(name)s,\n"
+"\n"
+"Your request \"%(title)s\" was not answered in the required time and became overdue.\n"
+"We recommend that you send another message to the public body to check the status of the request and if they received it.\n"
+"\n"
+"If you received a postal answer, please add it to the request.\n"
+"\n"
+"Here's a link to the request:\n"
+"%(url)s\n"
+"\n"
+"Cheers,\n"
+"%(site_name)s"
+msgstr "你好， %(name)s⏎\n⏎\n你的信息公开申请 \"%(title)s\" 未在答复期限内收到回复并且已超期.⏎\n我们建议你向被申请人再发送一个消息。⏎\n⏎\n如果你收到了邮寄的回复，请将它添加到这个申请中。⏎\n⏎\n以下是你的申请档案链接:⏎\n%(url)s⏎\n⏎\n谢谢,⏎\n%(site_name)s"
+
+#: froide/foirequest/templates/foirequest/emails/classification_reminder.txt:1
+#, python-format
+msgid ""
+"Hello %(name)s,\n"
+"\n"
+"This a reminder that your request \"%(title)s\" has received a reply and you need to set a new status.\n"
+"\n"
+"Go to your request now:\n"
+"%(url)s\n"
+"\n"
+"\n"
+"Cheers,\n"
+"%(site_name)s"
+msgstr "你好， %(name)s⏎\n⏎\n温馨提醒，你的信息公开申请 \"%(title)s\" 已收到回复因此你需要更新它的状态。⏎\n⏎\n请访问你的申请档案:⏎\n%(url)s⏎\n⏎\n⏎\n谢谢,⏎\n%(site_name)s"
+
+#: froide/foirequest/templates/foirequest/emails/confirm_foi_message_sent.txt:1
+#, python-format
+msgid ""
+"Hello %(name)s,\n"
+"\n"
+"your message for the Freedom of Information request \"%(title)s\" has been sent. We will notify you when you get a response.\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Cheers,\n"
+"%(site_name)s\n"
+msgstr "你好， %(name)s⏎\n⏎\n你向信息公开申请\"%(title)s\"添加的消息已寄送。我们会在你收到答复时通知你。⏎\n⏎\n%(url)s⏎\n⏎\n谢谢，⏎\n%(site_name)s⏎\n"
+
+#: froide/foirequest/templates/foirequest/emails/confirm_foi_request_sent.txt:1
+#, python-format
+msgid ""
+"Hello %(name)s,\n"
+"\n"
+"your request \"%(title)s\" has been sent. We will notify you when you get a response.\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Cheers,\n"
+"%(site_name)s\n"
+msgstr "你好，%(name)s⏎\n⏎\n你的信息公开申请\"%(title)s\"已寄送。我们会在你收到回复时通知你。⏎\n⏎\n%(url)s⏎\n⏎\n谢谢，⏎\n%(site_name)s⏎\n"
+
+#: froide/foirequest/templates/foirequest/emails/dummy_mail_end.txt:1
+msgid ""
+"\n"
+"Sincerely yours,"
+msgstr "\n⏎\n祝好,"
+
+#: froide/foirequest/templates/foirequest/emails/dummy_mail_start.txt:1
+msgid ""
+"Dear Sir or Madam,\n"
+"\n"
+"I'd like to make a request under a (yet to be determined) freedom of information law."
+msgstr "你好，⏎\n⏎\n我想根据信息公开条例的有关规定向你们提出一个信息公开申请。"
+
+#: froide/foirequest/templates/foirequest/emails/foi_request_mail.txt:9
+#: froide/foirequest/templates/foirequest/emails/mail_with_userinfo.txt:4
+msgid "Post Address:"
+msgstr "邮寄地址："
+
+#: froide/foirequest/templates/foirequest/emails/mail_footer.txt:2
+#: froide/foirequest/templates/foirequest/emails/request_footer.txt:2
+msgid ""
+"Legal Note: This mail was sent through a Freedom Of Information Portal. "
+"Replies might be published automatically.\n"
+msgstr "法律注意事项：该邮件通过一个信息公开申请平台发送。所有回复可能会自动公开发布。⏎\n"
+
+#: froide/foirequest/templates/foirequest/emails/mediation_message.txt:1
+#, python-format
+msgid ""
+"Dear Sir or Madam,\n"
+"\n"
+"I'd like to complain about the handling of the request under the %(law)s documented here:\n"
+"\n"
+"%(link)s\n"
+"\n"
+"I believe this request has been mishandled because ...\n"
+"\n"
+"Sincerely yours\n"
+"%(name)s"
+msgstr "你好，⏎\n⏎\n我想基于以下%(law)s文件，对于你们处理我的信息公开申请的不当之处提出申诉：⏎\n⏎\n%(link)s⏎\n⏎\n我相信我的信息公开申请被不妥当处理，因为 ...⏎\n⏎\n祝好，⏎\n%(name)s"
+
+#: froide/foirequest/templates/foirequest/emails/message_received_notification.txt:1
+#, python-format
+msgid ""
+"Hello %(name)s,\n"
+"\n"
+"You received a response to your request \"%(title)s\". Please read the response and change the status of the request if needed. You can also send another message.\n"
+"\n"
+"To read your response and set the right status, click the link below:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Cheers,\n"
+"%(site_name)s"
+msgstr "你好， %(name)s⏎\n⏎\n你的信息公开申请\"%(title)s\"收到了新回复。请仔细阅读回复并为申请设定新状态。你也可以向被申请人寄送新消息。⏎\n⏎\n阅读回复以及设定状态请访问:⏎\n⏎\n%(url)s⏎\n⏎\n谢谢,⏎\n%(site_name)s"
+
+#: froide/foirequest/templates/foirequest/emails/overdue_reply.txt:1
+#, python-format
+msgid ""
+"Dear Sir or Madam,\n"
+"\n"
+"My Freedom of Information request \"%(title)s\" (%(date)s) was not answered in the time defined by law and is now %(due)s late.\n"
+"Please update me on the status of my request as soon as possible.\n"
+"\n"
+"Sincerely yours,\n"
+"%(name)s"
+msgstr "你好，⏎\n⏎\n我的信息公开申请\"%(title)s\" (%(date)s) 未在法律规定实现内得到回复，并且现在已经超期%(due)s天.⏎\n请尽快答复我的信息公开申请。⏎\n⏎\n祝好，⏎\n%(name)s"
+
+#: froide/foirequest/templates/foirequest/emails/public_body_suggestion_received.txt:1
+#, python-format
+msgid ""
+"Hello %(name)s,\n"
+"\n"
+"you received a suggestion for a Public Body on your request '%(title)s'."
+msgstr "你好，%(name)s⏎\n⏎\n你的信息公开申请'%(title)s'收到了一个新的被申请人提名。"
+
+#: froide/foirequest/templates/foirequest/emails/public_body_suggestion_received.txt:4
+msgid "The suggestion is:"
+msgstr "这项提名是："
+
+#: froide/foirequest/templates/foirequest/emails/public_body_suggestion_received.txt:6
+msgid "The following reason was given:"
+msgstr "提名理由："
+
+#: froide/foirequest/templates/foirequest/emails/public_body_suggestion_received.txt:9
+msgid ""
+"If you want to use this Public Body, go to your request and chose the Public"
+" Body from the list. Here is a link to your request:"
+msgstr "如果你想采用这项提名，请前往你的申请档案，并从提名的公共机构中选择该机构。你的申请档案链接为："
+
+#: froide/foirequest/templates/foirequest/emails/request_update.txt:1
+#: froide/foirequestfollower/templates/foirequestfollower/update_follower.txt:1
+#, python-format
+msgid "Hello %(name)s,"
+msgstr "你好，%(name)s"
+
+#: froide/foirequest/templates/foirequest/emails/request_update.txt:3
+#, python-format
+msgid "in the last 24 hours there was an update on one of your requests."
+msgid_plural ""
+"in the last 24 hours there were updates to %(count)s of your requests."
+msgstr[0] "过去24小时中，你的%(count)s项信息公开申请有了新动态。"
+
+#: froide/foirequest/templates/foirequest/emails/request_update.txt:5
+#, python-format
+msgid "Updates to your request \"%(title)s\""
+msgstr "你的信息公开申请\"%(title)s\"的动态"
+
+#: froide/foirequest/templates/foirequest/emails/request_update.txt:8
+#, python-format
+msgid "Visit your request: %(link)s"
+msgstr "访问你的申请档案：%(link)s"
+
+#: froide/foirequest/templates/foirequest/emails/request_update.txt:11
+#: froide/foirequestfollower/templates/foirequestfollower/update_follower.txt:16
+#, python-format
+msgid ""
+"\n"
+"Cheers,\n"
+"%(site_name)s\n"
+msgstr "\n⏎\n谢谢，⏎\n%(site_name)s⏎\n"
+
+#: froide/foirequest/templates/foirequest/snippets/attachment.html:15
+msgid ""
+"Please check this attachment for personally identifying information. Then "
+"publish the document (unless you are explicitly forbidden from publishing) "
+"or redact the information."
+msgstr "请小心检查附件中是否含有个人隐私信息。然后公开发表（除非你被明令不得公开发表）或者特殊处理相关文档。"
+
+#: froide/foirequest/templates/foirequest/snippets/attachment.html:19
+#, python-format
+msgid ""
+"Please check this attachment for personally identifying information (besides"
+" your name %(name)s). Then publish the document (unless you are explicitly "
+"forbidden from publishing) or redact the information."
+msgstr "请检查附件是否含有你的个人隐私信息（除了你的姓名%(name)s）。然后公开发表（除非你被明令不得公开发表）或者特殊处理相关文档。"
+
+#: froide/foirequest/templates/foirequest/snippets/attachment.html:24
+#: froide/foirequest/templates/foirequest/snippets/attachment.html:39
+msgid "This attachment has been blocked from publishing."
+msgstr "这个附件被禁止公开发表。"
+
+#: froide/foirequest/templates/foirequest/snippets/attachment.html:25
+msgid "As a moderator you are still able to publish it."
+msgstr "作为管理员，你可以发布它。"
+
+#: froide/foirequest/templates/foirequest/snippets/attachment.html:32
+msgid "Redact this attachment"
+msgstr "特殊处理附件"
+
+#: froide/foirequest/templates/foirequest/snippets/attachment.html:47
+msgid "This attachment has not been published yet."
+msgstr "这项附件还未公开发表。"
+
+#: froide/foirequest/templates/foirequest/snippets/attachment.html:49
+msgid "This attachment can't be published."
+msgstr "这项附件不能被公开发表。"
+
+#: froide/foirequest/templates/foirequest/snippets/request_item.html:27
+#, python-format
+msgid "%(counter)s identical request"
+msgid_plural "%(counter)s identical requests"
+msgstr[0] "%(counter)s 重复申请"
+
+#: froide/foirequestfollower/forms.py:18
+msgid "Your Email address"
+msgstr "你的邮件地址"
+
+#: froide/foirequestfollower/forms.py:19
+msgid "email address"
+msgstr "邮件地址"
+
+#: froide/foirequestfollower/forms.py:24
+msgid "Missing email address!"
+msgstr "缺少邮件地址！"
+
+#: froide/foirequestfollower/forms.py:26
+msgid "You cannot access this request!"
+msgstr "你不能访问该信息公开申请！"
+
+#: froide/foirequestfollower/forms.py:34
+#, python-format
+msgid ""
+"This email address already has an account. <a href=\"%s?simple\" class"
+"=\"target-small\">Please login using that email address in order to follow "
+"this account.</a>"
+msgstr "这个邮件地址已和现有账户关联。<a href=\"%s?simple\" class=\"target-small\">请用这个邮件地址登录后关注此账户。</a>"
+
+#: froide/foirequestfollower/forms.py:37
+msgid "You cannot follow your own requests."
+msgstr "你不能关注自己的信息公开申请。"
+
+#: froide/foirequestfollower/models.py:53
+msgid "Timestamp of Following"
+msgstr "关注的时间戳"
+
+#: froide/foirequestfollower/models.py:61
+msgid "Request Follower"
+msgstr "申请的关注者"
+
+#: froide/foirequestfollower/models.py:62
+msgid "Request Followers"
+msgstr "申请的关注者"
+
+#: froide/foirequestfollower/models.py:65
+#, python-format
+msgid "%(user)s follows %(request)s"
+msgstr "%(user)s 关注 %(request)s"
+
+#: froide/foirequestfollower/models.py:91
+#, python-format
+msgid "%(site_name)s: Please confirm that you want to follow this request"
+msgstr "%(site_name)s: 请确认你想关注此信息公开申请"
+
+#: froide/foirequestfollower/models.py:106
+#, python-format
+msgid "%(site_name)s: Update on one followed request"
+msgid_plural "%(site_name)s: Update on %(count)s followed requests"
+msgstr[0] "%(site_name)s: 更新关注此申请的人数： %(count)s人"
+
+#: froide/foirequestfollower/models.py:130
+#, python-format
+msgid "The request '%(request)s' received a reply."
+msgstr "信息公开申请'%(request)s'收到了一个回复。"
+
+#: froide/foirequestfollower/models.py:138
+#, python-format
+msgid "A message was sent in the request '%(request)s'."
+msgstr "信息公开申请'%(request)s'下新寄送了一条消息。"
+
+#: froide/foirequestfollower/tasks.py:36
+#, python-format
+msgid "The request '%(request)s' received a postal reply."
+msgstr "信息公开申请'%(request)s'收到了邮寄回复。"
+
+#: froide/foirequestfollower/tasks.py:65
+#, python-format
+msgid "%(time)s: New comment by %(name)s"
+msgstr "%(time)s: %(name)s留下了新评论"
+
+#: froide/foirequestfollower/tasks.py:110
+#, python-format
+msgid "%(time)s: %(text)s"
+msgstr "%(time)s: %(text)s"
+
+#: froide/foirequestfollower/tasks.py:111
+msgid "TIME_FORMAT"
+msgstr "TIME_FORMAT"
+
+#: froide/foirequestfollower/urls.py:8
+msgctxt "URL part"
+msgid "confirm-follow"
+msgstr "确定-关注"
+
+#: froide/foirequestfollower/urls.py:11
+msgctxt "URL part"
+msgid "unfollow"
+msgstr "取消关注"
+
+#: froide/foirequestfollower/views.py:22
+msgid "You are now following this request."
+msgstr "你现在正关注此信息公开申请"
+
+#: froide/foirequestfollower/views.py:25 froide/foirequestfollower/views.py:49
+msgid "You are not following this request anymore."
+msgstr "你不再关注该信息公开申请。"
+
+#: froide/foirequestfollower/views.py:29
+msgid ""
+"You have not yet confirmed that you want to follow this request. Click the "
+"link in the mail that was sent to you."
+msgstr "你还未确认你是否想要关注该信息公开申请。请点击我们发送到你邮箱的确认邮件进行确认。"
+
+#: froide/foirequestfollower/views.py:32
+msgid ""
+"Check your emails and click the confirmation link in order to follow this "
+"request."
+msgstr "请查收邮件并点击我们发送的确认链接来关注该信息公开申请。"
+
+#: froide/foirequestfollower/views.py:35
+msgid ""
+"You are following this request. If you want to unfollow it, click the "
+"unfollow link in the emails you received."
+msgstr "你正关注此项信息公开申请。如果你想取消关注，请点击我们发送到你邮箱的确认链接。"
+
+#: froide/foirequestfollower/views.py:52
+msgid "There was something wrong with your link. Perhaps try again."
+msgstr "你的链接似乎有点问题。请稍后再试。"
+
+#: froide/foirequestfollower/templates/foirequestfollower/confirm_follow.txt:1
+#, python-format
+msgid ""
+"Hi,\n"
+"\n"
+"please confirm that you want to follow the request \"%(title)s\" on %(site_name)s by clicking this link:"
+msgstr "你好,⏎\n⏎\n请确认你是否想在%(site_name)s上关注信息公开申请 \"%(title)s\":"
+
+#: froide/foirequestfollower/templates/foirequestfollower/follow_form.html:6
+msgid "Follow request"
+msgstr "关注申请"
+
+#: froide/foirequestfollower/templates/foirequestfollower/follow_form.html:14
+msgid "Unfollow request"
+msgstr "取消关注申请"
+
+#: froide/foirequestfollower/templates/foirequestfollower/follow_form.html:18
+msgid "You follow this request"
+msgstr "你关注此项申请"
+
+#: froide/foirequestfollower/templates/foirequestfollower/follow_form.html:23
+msgid "You get notified of changes."
+msgstr "你有内容改变的通知。"
+
+#: froide/foirequestfollower/templates/foirequestfollower/follow_form.html:30
+#: froide/foirequestfollower/templates/foirequestfollower/follow_form.html:34
+msgid "Follow request?"
+msgstr "关注申请？"
+
+#: froide/foirequestfollower/templates/foirequestfollower/follow_form.html:39
+msgid "Get notified by email of changes."
+msgstr "邮件通知内容改变。"
+
+#: froide/foirequestfollower/templates/foirequestfollower/follow_form.html:50
+msgid "You will receive notifications!"
+msgstr "你会收到通知！"
+
+#: froide/foirequestfollower/templates/foirequestfollower/follow_form.html:53
+msgid "You will not get notified anymore."
+msgstr "你不会再收到通知。"
+
+#: froide/foirequestfollower/templates/foirequestfollower/update_follower.txt:1
+msgid "Hello,"
+msgstr "你好，"
+
+#: froide/foirequestfollower/templates/foirequestfollower/update_follower.txt:3
+#, python-format
+msgid ""
+"in the last 24 hours there was an update on one request that you follow."
+msgid_plural ""
+"in the last 24 hours there were updates to %(count)s requests that you "
+"follow."
+msgstr[0] "在过去24小时，你关注的%(count)s项信息公开申请有新的动态。"
+
+#: froide/foirequestfollower/templates/foirequestfollower/update_follower.txt:5
+#, python-format
+msgid "Updates to the request \"%(title)s\""
+msgstr "信息公开申请\"%(title)s\"的新动态"
+
+#: froide/foirequestfollower/templates/foirequestfollower/update_follower.txt:8
+#, python-format
+msgid ""
+"Visit this request:\n"
+"\n"
+"%(link)s"
+msgstr "访问该信息公开申请：⏎\n⏎\n%(link)s"
+
+#: froide/foirequestfollower/templates/foirequestfollower/update_follower.txt:12
+#, python-format
+msgid ""
+"If you want to UNFOLLOW this request, click this link:\n"
+"%(unfollow_link)s"
+msgstr "如果你想取消关注该申请，请点击链接：⏎\n%(unfollow_link)s"
+
+#: froide/foisite/models.py:8
+msgid "Country Code"
+msgstr "国家代码"
+
+#: froide/foisite/models.py:9
+msgid "Country Name"
+msgstr "国家名称"
+
+#: froide/foisite/models.py:11 froide/frontpage/models.py:25
+#: froide/publicbody/models.py:86 froide/publicbody/models.py:220
+msgid "URL"
+msgstr "URL"
+
+#: froide/foisite/models.py:12 froide/frontpage/models.py:24
+msgid "Text"
+msgstr "文本"
+
+#: froide/foisite/models.py:13
+msgid "Enabled"
+msgstr "可用"
+
+#: froide/foisite/models.py:16
+msgid "FOI Site"
+msgstr "信息公开申请站点"
+
+#: froide/foisite/models.py:17
+msgid "FOI Sites"
+msgstr "信息公开申请站点"
+
+#: froide/foisite/templates/foisite/banner.html:8
+#, python-format
+msgid ""
+"It looks like you are visiting from %(country_name)s. Did you know that "
+"there is an <a href=\"%(url)s\">FOI site for %(country_name)s called "
+"%(name)s</a>?"
+msgstr "似乎你是来自 %(country_name)s的访客. 你知道在 %(country_name)s<a href=\"%(url)s\">也有一个信息公开申请站点叫做%(name)s吗</a>?"
+
+#: froide/frontpage/models.py:20 froide/frontpage/models.py:37
+msgid "Featured Request"
+msgstr "特色申请"
+
+#: froide/frontpage/models.py:38
+msgid "Featured Requests"
+msgstr "特色申请"
+
+#: froide/helper/admin_utils.py:17
+msgid "Has value"
+msgstr "有值"
+
+#: froide/helper/admin_utils.py:18
+msgid "None"
+msgstr "没有"
+
+#: froide/publicbody/admin.py:25
+msgid "Export to CSV"
+msgstr "导出到CSV"
+
+#: froide/publicbody/forms.py:7
+msgid "Name of Public Body"
+msgstr "公共机构名称"
+
+#: froide/publicbody/forms.py:8
+msgid "Short description"
+msgstr "简短描述"
+
+#: froide/publicbody/forms.py:11
+msgid "Email Address for Freedom of Information Requests"
+msgstr "信息公开申请邮件地址"
+
+#: froide/publicbody/forms.py:12
+msgid "Homepage URL of Public Body"
+msgstr "公共机构网站链接"
+
+#. Translators: URL part
+#: froide/publicbody/jurisdiction_urls.py:14
+msgid "entities"
+msgstr "实体"
+
+#: froide/publicbody/models.py:34
+msgid "Hidden"
+msgstr "隐藏"
+
+#: froide/publicbody/models.py:41
+msgid "Jurisdictions"
+msgstr "管辖权"
+
+#: froide/publicbody/models.py:75
+msgid "Website Text"
+msgstr "网站文字"
+
+#: froide/publicbody/models.py:76
+msgid "Creation Date"
+msgstr "创建日期"
+
+#: froide/publicbody/models.py:77
+msgid "Updated Date"
+msgstr "更新日期"
+
+#: froide/publicbody/models.py:78 froide/publicbody/models.py:236
+msgid "request note"
+msgstr "申请附注"
+
+#: froide/publicbody/models.py:79
+msgid "Meta Law"
+msgstr "元法律"
+
+#: froide/publicbody/models.py:80
+msgid "Combined Laws"
+msgstr "Combined Laws"
+
+#: froide/publicbody/models.py:81
+msgid "Start of Letter"
+msgstr "信件开头"
+
+#: froide/publicbody/models.py:82
+msgid "End of Letter"
+msgstr "信件结尾"
+
+#: froide/publicbody/models.py:85
+msgid "Priority"
+msgstr "优先级"
+
+#: froide/publicbody/models.py:87
+msgid "Maximal Response Time"
+msgstr "最长答复时限"
+
+#: froide/publicbody/models.py:89
+msgid "Unit of Response Time"
+msgstr "答复时限单位"
+
+#: froide/publicbody/models.py:91
+msgid "Day(s)"
+msgstr "自然日"
+
+#: froide/publicbody/models.py:92
+msgid "Working Day(s)"
+msgstr "工作日"
+
+#: froide/publicbody/models.py:93
+msgid "Month(s) (DE)"
+msgstr "月"
+
+#: froide/publicbody/models.py:96
+msgid "Possible Refusal Reasons, one per line, e.g §X.Y: Privacy Concerns"
+msgstr "可能的拒绝理由，每行一个，例如：隐私原因"
+
+#: froide/publicbody/models.py:98
+msgid "Mediator"
+msgstr "仲裁"
+
+#: froide/publicbody/models.py:102
+msgid "E-Mail only"
+msgstr "仅邮件受理"
+
+#: froide/publicbody/models.py:109 froide/publicbody/models.py:255
+msgid "Freedom of Information Laws"
+msgstr "信息公开条例"
+
+#: froide/publicbody/models.py:143
+msgid "Law not applicable"
+msgstr "法律不适用"
+
+#: froide/publicbody/models.py:143
+msgid "No law can be applied"
+msgstr "没有适用的法律"
+
+#: froide/publicbody/models.py:200
+msgid "Count"
+msgstr "计数"
+
+#: froide/publicbody/models.py:201
+msgid "Rank"
+msgstr "排名"
+
+#: froide/publicbody/models.py:206 froide/publicbody/models.py:218
+msgid "Topic"
+msgstr "主题"
+
+#: froide/publicbody/models.py:207
+msgid "Topics"
+msgstr "主题"
+
+#: froide/publicbody/models.py:215
+msgid "Other names"
+msgstr "其他名称"
+
+#: froide/publicbody/models.py:228
+#: froide/publicbody/templates/publicbody/pb_jurisdiction.html:14
+#: froide/publicbody/templates/publicbody/show_topic.html:22
+msgid "Classification"
+msgstr "分类"
+
+#: froide/publicbody/models.py:230
+msgid "Classification Slug"
+msgstr "分类别名"
+
+#: froide/publicbody/models.py:232
+msgid "Email"
+msgstr "邮件地址"
+
+#: froide/publicbody/models.py:233
+msgid "Contact"
+msgstr "联系方式"
+
+#: froide/publicbody/models.py:234
+msgid "Address"
+msgstr "地址"
+
+#: froide/publicbody/models.py:235
+msgid "Website Dump"
+msgstr "网站文本"
+
+#: froide/publicbody/models.py:238
+msgid "Created by"
+msgstr "创建者为"
+
+#: froide/publicbody/models.py:241
+msgid "Updated by"
+msgstr "更新者为"
+
+#: froide/publicbody/models.py:244
+msgid "confirmed"
+msgstr "已确认"
+
+#: froide/publicbody/models.py:246
+msgid "Number of requests"
+msgstr "申请数量"
+
+#: froide/publicbody/models.py:264
+#: froide/publicbody/templates/publicbody/base.html:5
+#: froide/publicbody/templates/publicbody/pb_jurisdiction.html:6
+#: froide/templates/base.html:57
+msgid "Public Bodies"
+msgstr "公共机构"
+
+#: froide/publicbody/views.py:124
+msgid "This request was already confirmed."
+msgstr "这项申请早已确认。"
+
+#: froide/publicbody/views.py:127
+#, python-format
+msgid "%(count)d message was sent."
+msgid_plural "%(count)d messages were sent"
+msgstr[0] "%(count)d条消息被发出。"
+
+#: froide/publicbody/views.py:146
+msgid "You need to provide a url."
+msgstr "你需要提供一个网址。"
+
+#: froide/publicbody/views.py:152
+msgid "Public Bodies were imported."
+msgstr "公共机构名录已导入。"
+
+#: froide/publicbody/templates/admin/publicbody/publicbody/change_form.html:7
+msgid "Confirm this Public Body "
+msgstr "确认此公共机构"
+
+#: froide/publicbody/templates/admin/publicbody/publicbody/change_list.html:9
+#, python-format
+msgid "Import %(name)s by URL"
+msgstr "通过网址导入%(name)s"
+
+#: froide/publicbody/templates/publicbody/_chooser.html:14
+msgid "Search Term"
+msgstr "搜索关键词"
+
+#: froide/publicbody/templates/publicbody/_chooser.html:15
+#: froide/templates/base.html:65
+msgid "Search"
+msgstr "搜索"
+
+#: froide/publicbody/templates/publicbody/_chooser.html:17
+msgid "Try something like:"
+msgstr "可尝试下列关键词："
+
+#: froide/publicbody/templates/publicbody/_chooser.html:18
+msgid "Environment"
+msgstr "环境"
+
+#: froide/publicbody/templates/publicbody/_chooser.html:18
+#: froide/templates/index.html:29
+msgid "or"
+msgstr "或"
+
+#: froide/publicbody/templates/publicbody/_chooser.html:19
+msgid "Ministry of Labour"
+msgstr "人力资源和社会保障部"
+
+#: froide/publicbody/templates/publicbody/_chooser.html:20
+msgid "Write to us if a public body is missing"
+msgstr "如果有公共机构不在系统中，请发邮件给我们。"
+
+#: froide/publicbody/templates/publicbody/_chooser.html:27
+msgid "No Public Bodies found for this query."
+msgstr "未能搜索到相应公共部门。"
+
+#: froide/publicbody/templates/publicbody/_search_form.html:4
+msgid "Search Terms"
+msgstr "搜索关键词"
+
+#: froide/publicbody/templates/publicbody/_search_form.html:7
+msgid "Search all Public Bodies"
+msgstr "搜索所有公共机构"
+
+#: froide/publicbody/templates/publicbody/jurisdiction.html:11
+#, python-format
+msgid "Freedom of Information<br/>in %(name)s"
+msgstr "%(name)s的信息公开"
+
+#: froide/publicbody/templates/publicbody/jurisdiction.html:12
+msgid "Ask Public Bodies for administrative information — it's your right."
+msgstr "向公共机构索取政务信息这是你的权利。"
+
+#: froide/publicbody/templates/publicbody/jurisdiction.html:18
+msgid "Which Public Bodies?"
+msgstr "哪一个公共机构？"
+
+#: froide/publicbody/templates/publicbody/jurisdiction.html:20
+msgid "All bodies that work on administrative tasks of this jurisdiction."
+msgstr "该管辖部门下所有公共机构。"
+
+#: froide/publicbody/templates/publicbody/jurisdiction.html:21
+#, python-format
+msgid ""
+"Make a request to one of <a href=\"%(url)s\">%(pb_count)s Public Bodies.</a>"
+msgstr "向<a href=\"%(url)s\">%(pb_count)s个公共机构之一</a>提出你的信息公开申请。"
+
+#: froide/publicbody/templates/publicbody/jurisdiction.html:26
+msgid "What Information?"
+msgstr "什么信息？"
+
+#: froide/publicbody/templates/publicbody/jurisdiction.html:27
+msgid ""
+"Contracts, memos, reports and other documents of the administration: you "
+"have the right to know."
+msgstr "你对公共机构的合同，备忘录，报告等行政文件有知情权。"
+
+#: froide/publicbody/templates/publicbody/jurisdiction.html:28
+msgid "Make a request!"
+msgstr "提出申请！"
+
+#: froide/publicbody/templates/publicbody/jurisdiction.html:33
+msgid "What right?"
+msgstr "什么权利？"
+
+#: froide/publicbody/templates/publicbody/jurisdiction.html:34
+#, python-format
+msgid ""
+"The freedom of information law in %(name)s allows you access to "
+"administrative information. "
+msgstr "%(name)s的信息公开条例允许你访问行政信息。"
+
+#: froide/publicbody/templates/publicbody/jurisdiction.html:35
+msgid "Get to know your right!"
+msgstr "快来了解你的权利！"
+
+#: froide/publicbody/templates/publicbody/list.html:6
+#: froide/publicbody/templates/publicbody/list_topic.html:6
+msgid "Public Bodies by Topic"
+msgstr "依主题分类的公共机构"
+
+#: froide/publicbody/templates/publicbody/list.html:13
+msgid "in alphabetical order"
+msgstr "按字母排序"
+
+#: froide/publicbody/templates/publicbody/list.html:30
+msgid "No Public Bodies yet"
+msgstr "尚无公共机构"
+
+#: froide/publicbody/templates/publicbody/pb_jurisdiction.html:22
+#: froide/publicbody/templates/publicbody/show_topic.html:30
+msgid "Click here to make a request to this Public Body"
+msgstr "点击此处向该公共机构提出一个信息公开申请"
+
+#: froide/publicbody/templates/publicbody/pb_jurisdiction.html:23
+#: froide/publicbody/templates/publicbody/show_topic.html:31
+msgid "Make a Request"
+msgstr "提出申请"
+
+#: froide/publicbody/templates/publicbody/request.html:5
+#, python-format
+msgid "Write a request to %(name)s"
+msgstr "向%(name)s提出信息公开申请"
+
+#: froide/publicbody/templates/publicbody/search.html:8
+#, python-format
+msgid "Search Results for &quot;%(query)s&quot; in Public Bodies"
+msgstr "在公共机构内搜索&quot;%(query)s&quot的结果："
+
+#: froide/publicbody/templates/publicbody/search.html:19
+#: froide/templates/search/search.html:41
+#, python-format
+msgid "No relevant Public bodies found for \"%(query)s\"."
+msgstr "未找到和\"%(query)s\"有关的公共机构。"
+
+#: froide/publicbody/templates/publicbody/search.html:22
+#: froide/templates/search/search.html:42
+msgid "You can browse the list of Public Bodies."
+msgstr "你能浏览公共机构名录。"
+
+#: froide/publicbody/templates/publicbody/show.html:11
+msgid "Make a Request to this public body!"
+msgstr "向该公共机构提出申请！"
+
+#: froide/publicbody/templates/publicbody/show.html:14
+msgid "All FOI requests for this public body"
+msgstr "此公共机构收到的所有信息公开申请"
+
+#: froide/publicbody/templates/publicbody/show.html:26
+msgid "Classification:"
+msgstr "分类："
+
+#: froide/publicbody/templates/publicbody/show.html:28
+msgid "Topic:"
+msgstr "主题："
+
+#: froide/publicbody/templates/publicbody/show.html:34
+msgid "Website:"
+msgstr "网站："
+
+#: froide/publicbody/templates/publicbody/show.html:38
+msgid "Email:"
+msgstr "邮件地址："
+
+#: froide/publicbody/templates/publicbody/show.html:40
+msgid "Make a request"
+msgstr "提出申请"
+
+#: froide/publicbody/templates/publicbody/show.html:42
+msgid "Contact:"
+msgstr "联系方式："
+
+#: froide/publicbody/templates/publicbody/show_foilaw.html:9
+msgid "Link to law text:"
+msgstr "法律文件链接："
+
+#: froide/publicbody/templates/publicbody/show_foilaw.html:11
+#, python-format
+msgid "Law text of %(name)s (%(juris)s)"
+msgstr "%(name)s (%(juris)s)的法律文本"
+
+#: froide/publicbody/templates/publicbody/show_foilaw.html:14
+msgid "Came into effect on"
+msgstr "开始生效于"
+
+#: froide/publicbody/templates/publicbody/show_foilaw.html:18
+msgid "Last update on"
+msgstr "最后更新于"
+
+#: froide/publicbody/templates/publicbody/show_foilaw.html:22
+msgid "Mediating authority"
+msgstr "仲裁机构"
+
+#: froide/publicbody/templates/publicbody/show_topic.html:6
+#, python-format
+msgid ""
+"\n"
+"%(counter)s Public Body in Topic '%(name)s'"
+msgid_plural ""
+"\n"
+"%(counter)s Public Bodies in Topic '%(name)s'"
+msgstr[0] "\n⏎\n在主题'%(name)s'下共有%(counter)s个公共机构。"
+
+#: froide/publicbody/templates/publicbody/show_topic.html:13
+msgid "back to list of topics"
+msgstr "回到主题列表"
+
+#: froide/templates/400.html:5
+msgid "400 - Bad Request"
+msgstr "400 - Bad Request"
+
+#: froide/templates/403.html:5
+msgid "403 - Forbidden"
+msgstr "403 - Forbidden"
+
+#: froide/templates/403.html:9
+msgid ""
+"You tried to access a site that you are not authorized to access or you "
+"triggered a security warning."
+msgstr "你尝试访问你无权访问的内容或你触发了安全警报。"
+
+#: froide/templates/404.html:5
+msgid "404 - Not Found"
+msgstr "404 - Not Found"
+
+#: froide/templates/500.html:5
+msgid "500 - Server Error"
+msgstr "500 - Server Error"
+
+#: froide/templates/500.html:7
+#, python-format
+msgid ""
+"If you need assistance, you may reference this error as "
+"<strong>%(ref)s</strong>."
+msgstr "如果你需要帮助，你可以说明你遇到了标记为<strong>%(ref)s</strong>的错误。"
+
+#. Translators: meta keywords
+#: froide/templates/base.html:16
+msgid ""
+"Freedom of Information Requests, Freedom of Information Law, Public Body "
+"Information"
+msgstr "信息公开申请，信息公开条例，公共机构信息"
+
+#. Translators: meta description
+#: froide/templates/base.html:18
+#, python-format
+msgid ""
+"%(site)s helps you to make freedom of information requests to public bodies"
+msgstr "%(site)s帮助你向公共机构提出信息公开申请"
+
+#: froide/templates/base.html:35
+msgid ""
+"This site is currently in dry run mode. All Public Body mail will go to this"
+" mail server:"
+msgstr "本站点目前处于测试运行模式下。所有公共机构的邮件都会送到这个邮件服务器："
+
+#: froide/templates/base.html:54
+msgid "Requests"
+msgstr "信息公开申请"
+
+#: froide/templates/base.html:60
+msgid "Make a Request!"
+msgstr "提出申请！"
+
+#: froide/templates/base.html:79
+msgid "Account"
+msgstr "帐号"
+
+#: froide/templates/base.html:83
+msgid "Public Profile"
+msgstr "公开档案"
+
+#: froide/templates/base.html:88
+msgid "Logout"
+msgstr "登出"
+
+#: froide/templates/base.html:95
+msgid "Log In /<br/>Sign up"
+msgstr "登入/<br/>注册"
+
+#: froide/templates/base.html:131
+#, python-format
+msgid ""
+"Froide is a free and Open Source Project by <a "
+"href=\"http://www.okfn.org\">the Open Knowledge Foundation</a>. If you want "
+"to support Froide, please visit the <a href=\"%(url)s\">repository on "
+"GitHub</a>."
+msgstr "Froide是由<a href=\"http://www.okfn.org\">开放知识基金会</a>支持的开源项目。 如果你想支持Froide项目，请访问 <a href=\"%(url)s\">GitHub代码库</a>."
+
+#: froide/templates/base.html:148
+msgid "About"
+msgstr "关于"
+
+#: froide/templates/base.html:153 froide/templates/help/base.html:4
+msgid "Help"
+msgstr "帮助"
+
+#: froide/templates/base.html:155
+msgid "Terms of Use"
+msgstr "用户条款"
+
+#: froide/templates/base.html:158
+msgid "Privacy Statement"
+msgstr "隐私条款"
+
+#: froide/templates/index.html:15
+msgid ""
+"This site publishes Freedom of Information requests and helps you to make "
+"your own!"
+msgstr "这个站点公开发表信息公开申请以及帮助你完成自己的申请！"
+
+#: froide/templates/index.html:20
+#, python-format
+msgid "Search %(foicount)s requests and %(pbcount)s public bodies:"
+msgstr "搜索%(foicount)s项信息公开申请及%(pbcount)s个公共机构："
+
+#: froide/templates/index.html:23 froide/templates/search/search.html:11
+msgid "Search For Information"
+msgstr "搜索信息"
+
+#: froide/templates/index.html:27
+msgid "Try the following:"
+msgstr "尝试以下："
+
+#: froide/templates/index.html:28
+msgid "Nuclear"
+msgstr "核"
+
+#: froide/templates/index.html:30
+msgid "Employment"
+msgstr "就业"
+
+#: froide/templates/index.html:45
+msgid "Read the blog post"
+msgstr "阅读博文"
+
+#: froide/templates/index.html:50
+msgid "Visit this request"
+msgstr "访问该信息公开申请"
+
+#: froide/templates/index.html:55
+msgid ""
+"Freedom of Information Request\n"
+"\n"
+"    To: Ministry of Interior\n"
+"\n"
+"    Dear Sir or Madam,\n"
+"    I request information about the following:\n"
+"    ..."
+msgstr "信息公开申请⏎\n⏎\n至: 环境保护部⏎\n⏎\n你好，⏎\n我申请公开以下信息：⏎\n..."
+
+#: froide/templates/index.html:62
+msgid "Write a Request Now!"
+msgstr "现在就填写信息公开申请表！"
+
+#: froide/templates/index.html:73
+msgid "What is Freedom of Information?"
+msgstr "什么是信息公开？"
+
+#: froide/templates/index.html:74
+msgid ""
+"Every citizen has the right under the Freedom of Information Laws to ask for"
+" and receive access to information from Public Bodies concerning public "
+"affairs."
+msgstr "任何公民都有权向公共机构提出有关公众利益的信息公开申请获取和访问相关信息。"
+
+#: froide/templates/index.html:76
+msgid "Read more about the Freedom of Information!"
+msgstr "阅读更多关于信息公开的内容！"
+
+#: froide/templates/index.html:83
+msgid "What does this site do?"
+msgstr "这个网站是干什么的？"
+
+#: froide/templates/index.html:84
+msgid ""
+"This site publishes Freedom of Information requests and replies so that "
+"others don't have to ask for the same information and replies can be "
+"scrutinized by the public."
+msgstr "这个网站公开发布信息公开申请以及回复因此其他人不需要重复询问相同的信息并且回复可受公众的检查和评论。"
+
+#: froide/templates/index.html:86
+msgid "Read more about the concept!"
+msgstr "阅读更多关于这个概念的内容！"
+
+#: froide/templates/index.html:94
+msgid "Successful Requests"
+msgstr "成功的信息公开申请"
+
+#: froide/templates/index.html:104
+msgid "Unsuccessful Requests"
+msgstr "失败的信息公开申请"
+
+#: froide/templates/comments/foirequest/form.html:12
+#, python-format
+msgid "Comment by %(name)s:"
+msgstr "%(name)s的评论："
+
+#: froide/templates/comments/foirequest/form.html:15
+msgid ""
+"Despite your privacy settings, your real name will be published with "
+"comment.<br/>There are <strong>no anonymous comments</strong>."
+msgstr "无论你的隐私设定为何，你的真实姓名都会于你的评论一同公开发布。<br/>这里<strong>没有匿名评论</strong>。"
+
+#: froide/templates/comments/foirequest/form.html:17
+msgid "Post Comment"
+msgstr "发布评论"
+
+#: froide/templates/comments/foirequest/list.html:4
+msgid "Moderator"
+msgstr "管理员"
+
+#: froide/templates/comments/foirequest/list.html:5
+#, python-format
+msgid "On %(date)s, %(name)s wrote:"
+msgstr "在%(date)s，%(name)s写道："
+
+#: froide/templates/comments/foirequest/list.html:12
+msgid "Read all"
+msgstr "阅读全部"
+
+#: froide/templates/help/base.html:12
+msgid "Help Pages"
+msgstr "帮助页面"
+
+#: froide/templates/help/base.html:15
+msgid "General Information"
+msgstr "一般信息"
+
+#: froide/templates/help/base.html:18
+msgid "About Froide"
+msgstr "关于Froide"
+
+#: froide/templates/help/base.html:21
+msgid "Please donate"
+msgstr "请捐助"
+
+#: froide/templates/help/base.html:24
+msgid "Making Requests"
+msgstr "提出申请"
+
+#: froide/templates/help/base.html:27
+msgid "Your Privacy"
+msgstr "你的隐私"
+
+#: froide/templates/help/base.html:30
+msgid "For FoI Officers"
+msgstr "供信息公开被申请人使用"
+
+#: froide/templates/pagination/pagination.html:5
+#: froide/templates/pagination/pagination.html:7
+msgid "previous"
+msgstr "前"
+
+#: froide/templates/pagination/pagination.html:19
+#: froide/templates/pagination/pagination.html:21
+msgid "next"
+msgstr "后"
+
+#: froide/templates/search/search.html:5
+#, python-format
+msgid "Search Results for \"%(query)s\""
+msgstr "\"%(query)s\"的搜索结果"
+
+#: froide/templates/search/search.html:8
+msgid "Your Topic"
+msgstr "你的主题"
+
+#: froide/templates/search/search.html:18
+msgid "Related Freedom of Information Requests"
+msgstr "相关信息公开申请"
+
+#: froide/templates/search/search.html:26
+#, python-format
+msgid "No relevant requests found for \"%(query)s\"."
+msgstr "没有与\"%(query)s\"相关的信息公开申请"
+
+#: froide/templates/search/search.html:27
+msgid "You can browse the list of existing requests."
+msgstr "你可以浏览现有的信息公开申请。"
+
+#: froide/templates/search/search.html:33
+msgid "Related Public Bodies"
+msgstr "相关的公共机构"
+
+#: froide/templates/search/search.html:50
+msgid "Please provide at least one search term"
+msgstr "请至少给定一个搜索关键词"
+
+#: froide/templates/search/search.html:54
+msgid "Couldn't find what you were looking for?"
+msgstr "没找到你要找的？"
+
+#: froide/templates/search/search.html:56
+msgid "Make a Freedom of Information Request now!"
+msgstr "现在就提出信息公开申请！"
