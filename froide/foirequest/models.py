@@ -628,7 +628,6 @@ class FoiRequest(models.Model):
             message.plaintext = strip_all_tags(email['html'])
         message.subject_redacted = message.redact_subject()[:250]
         message.plaintext_redacted = message.redact_plaintext()
-        message.original = mail_string
         message.save()
         self._messages = None
         self.status = 'awaiting_classification'
@@ -1025,6 +1024,18 @@ class FoiRequest(models.Model):
             settings.DEFAULT_FROM_EMAIL,
             [user.email]
         )
+
+    def days_to_resolution(self):
+        final = None
+        resolutions = dict(self.RESOLUTION_FIELD_CHOICES)
+        for mes in self.response_messages():
+            if (mes.status == 'resolved' or
+                        mes.status in resolutions):
+                final = mes.timestamp
+                break
+        if final is None:
+            return None
+        return (mes.timestamp - self.first_message).days
 
 
 class PublicBodySuggestion(models.Model):

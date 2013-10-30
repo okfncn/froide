@@ -42,6 +42,8 @@ class CSVImporter(object):
         # generate slugs
         row['name'] = row['name'].strip()
         row['email'] = row['email'].lower()
+        if row['url'] and not row['url'].startswith(('http://', 'https://')):
+            row['url'] = 'http://' + row['url']
         row['slug'] = slugify(row['name'])
         row['classification_slug'] = slugify(row['classification'])
 
