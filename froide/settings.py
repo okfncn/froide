@@ -59,7 +59,6 @@ class Base(Configuration):
 
     CACHES = values.CacheURLValue('dummy://')
 
-
     ############## Site Configuration #########
 
     # Make this unique, and don't share it with anybody.
@@ -179,7 +178,6 @@ class Base(Configuration):
         'django.middleware.csrf.CsrfViewMiddleware',
         'django.contrib.auth.middleware.AuthenticationMiddleware',
         'django.contrib.messages.middleware.MessageMiddleware',
-        'django.middleware.locale.LocaleMiddleware'
     ]
 
     ########## I18N and L10N ##################
@@ -235,93 +233,6 @@ class Base(Configuration):
         'root': {
             'level': 'WARNING',
             'handlers': [],
-=======
-MIDDLEWARE_CLASSES = [
-    'django.middleware.common.CommonMiddleware',
-    'djangosecure.middleware.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
-    'pagination.middleware.PaginationMiddleware',
-    'django.middleware.locale.LocaleMiddleware'
-]
-MIDDLEWARE_CLASSES += ['debug_toolbar.middleware.DebugToolbarMiddleware']
-
-########## Debug ###########
-
-DEBUG_TOOLBAR_CONFIG = {
-    "INTERCEPT_REDIRECTS": False
-}
-
-########## I18N and L10N ##################
-
-# Local time zone for this installation. Choices can be found here:
-# http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
-# although not all choices may be available on all operating systems.
-# On Unix systems, a value of None will cause Django to use the same
-# timezone as the operating system.
-# If running in a Windows environment this must be set to the same as your
-# system time zone.
-TIME_ZONE = 'Europe/Berlin'
-USE_TZ = True
-
-# Language code for this installation. All choices can be found here:
-# http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
-
-
-# If you set this to False, Django will make some optimizations so as not
-# to load the internationalization machinery.
-USE_I18N = True
-
-
-# If you set this to False, Django will not format dates, numbers and
-# calendars according to the current locale
-USE_L10N = True
-
-DATE_FORMAT = "d. F Y"
-SHORT_DATE_FORMAT = "d.m.Y"
-DATE_INPUT_FORMATS = ("%d.%m.%Y",)
-SHORT_DATETIME_FORMAT = "d.m.Y H:i"
-DATETIME_INPUT_FORMATS = ("%d.%m.%Y %H:%M",)
-TIME_FORMAT = "H:i"
-TIME_INPUT_FORMATS = ("%H:%M",)
-
-# Holidays in your country
-
-HOLIDAYS = [
-    (1, 1),  # New Year's Day
-    (12, 25),  # Christmas
-    (12, 26)  # Second day of Christmas
-]
-
-# Weekends are non-working days
-HOLIDAYS_WEEKENDS = True
-
-# Calculates other holidays based on easter sunday
-HOLIDAYS_FOR_EASTER = (0, -2, 1, 39, 50, 60)
-
-
-######### Logging ##########
-
-# A sample logging configuration.
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': True,
-    'root': {
-        'level': 'WARNING',
-        'handlers': [],
-    },
-    'filters': {
-        'require_debug_false': {
-            '()': 'django.utils.log.RequireDebugFalse'
-        }
-    },
-    'formatters': {
-        'verbose': {
-            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
->>>>>>> master
         },
         'filters': {
             'require_debug_false': {
