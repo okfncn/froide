@@ -59,7 +59,7 @@ class Base(Configuration):
 
     CACHES = values.CacheURLValue('dummy://')
 
-<<<<<<< HEAD
+
     ############## Site Configuration #########
 
     # Make this unique, and don't share it with anybody.
